@@ -38,6 +38,11 @@ const awards = [
     organization: "HackTheBox",
     icon: "🔥",
   },
+  {
+    title: "CARE-X Trail of Bits Echidna Top 7",
+    organization: "Secureum",
+    icon: "🛡️",
+  },
 ];
 
 const certifications = [
@@ -71,6 +76,16 @@ const certifications = [
     organization: "Gitcoin",
     icon: "🌱",
   },
+  {
+    title: "Full Stack Engineer",
+    organization: "Codecademy",
+    icon: "💻",
+  },
+  {
+    title: "Secure Coding",
+    organization: "Hack The Box",
+    icon: "🔒",
+  },
 ];
 
 export default function Achievements() {
@@ -90,7 +105,7 @@ export default function Achievements() {
             Awards & Recognition
           </motion.h2>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {awards.map((award, index) => (
               <motion.div
                 key={award.title}
@@ -103,10 +118,10 @@ export default function Achievements() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">{award.icon}</span>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                    <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-sm">
                       {award.title}
                     </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
                       {award.organization}
                     </p>
                   </div>
@@ -127,7 +142,7 @@ export default function Achievements() {
             Certifications
           </motion.h2>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             {certifications.map((cert, index) => (
               <motion.div
                 key={cert.title}
@@ -140,10 +155,10 @@ export default function Achievements() {
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">{cert.icon}</span>
                   <div>
-                    <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                    <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-sm">
                       {cert.title}
                     </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                    <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
                       {cert.organization}
                     </p>
                   </div>
