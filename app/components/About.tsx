@@ -2,6 +2,50 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+
+const socialLinks = [
+  {
+    name: "Talent Protocol",
+    url: "https://app.talentprotocol.com/profile/2912579",
+    icon: "🎯",
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/hebx",
+    icon: "💻",
+  },
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/ihab-hormi-552b63219/",
+    icon: "🔗",
+  },
+  {
+    name: "Twitter",
+    url: "https://x.com/lordheb",
+    icon: "X",
+  },
+  {
+    name: "Farcaster",
+    url: "https://warpcast.com/lordheb.eth",
+    icon: "🪞",
+  },
+  {
+    name: "Lens",
+    url: "https://hey.xyz/u/@lordheb",
+    icon: "🌿",
+  },
+  {
+    name: "Basename",
+    url: "https://www.base.org/name/lordheb",
+    icon: "💎",
+  },
+  {
+    name: "Telegram",
+    url: "https://t.me/lord_heb",
+    icon: "💬",
+  }
+];
 
 export default function About() {
   return (
@@ -38,15 +82,15 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="lg:w-1/2"
+            className="lg:w-1/2 space-y-8"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-8">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
               About Me
             </h2>
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a passionate software developer with a deep mastery of software development, 
+                I&apos;m a passionate software developer with a deep mastery of software development, 
                 cutting-edge tools, and programming languages.
               </p>
               
@@ -57,54 +101,68 @@ export default function About() {
               </p>
 
               <p>
-                I'm passionate about integrating decentralized systems with intelligent automation, 
+                I&apos;m passionate about integrating decentralized systems with intelligent automation, 
                 eager to drive innovation at the intersection of blockchain and artificial intelligence.
               </p>
             </div>
 
-            {/* Skills Section */}
-            <div className="mt-12">
-              <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-6">
-                Core Technologies
+            {/* Social Links */}
+            <div className="pt-6 space-y-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+                Connect With Me
               </h3>
-              <div className="flex flex-wrap gap-3">
-                {[
-                  'Blockchain', 'Smart Contracts', 'Web3', 'AI',
-                  'Solidity', 'TypeScript', 'Node.js', 'React'
-                ].map((skill) => (
-                  <motion.span 
-                    key={skill}
-                    whileHover={{ scale: 1.05 }}
-                    className="px-4 py-2 bg-white dark:bg-gray-800 ring-1 ring-purple-500/20 
-                    text-gray-700 dark:text-gray-300 rounded-lg text-sm hover:ring-purple-500/40 
-                    shadow-sm hover:shadow transition-all duration-300"
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {socialLinks.map((link) => (
+                  <Link
+                    key={link.name}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex items-center gap-2 px-4 py-2 rounded-lg bg-white/50 dark:bg-gray-800/50 
+                             border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-500/50 
+                             dark:hover:border-purple-500/50 transition-all duration-300"
                   >
-                    {skill}
-                  </motion.span>
+                    <span className="text-xl">{link.icon}</span>
+                    <span className="text-sm font-medium text-gray-600 dark:text-gray-300 
+                                   group-hover:text-purple-600 dark:group-hover:text-purple-400">
+                      {link.name}
+                    </span>
+                  </Link>
                 ))}
               </div>
-            </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mt-12">
-              {[
-                { number: '5+', label: 'Years', color: 'from-purple-600 to-indigo-600' },
-                { number: '50+', label: 'Projects', color: 'from-blue-600 to-cyan-600' },
-                { number: '30+', label: 'Clients', color: 'from-emerald-600 to-teal-600' },
-                { number: '99%', label: 'Success', color: 'from-orange-600 to-amber-600' }
-              ].map((stat) => (
-                <motion.div 
-                  key={stat.label}
-                  whileHover={{ y: -5 }}
-                  className="p-4 rounded-lg bg-white dark:bg-gray-800 ring-1 ring-gray-200/50 
-                  dark:ring-gray-800/50 shadow-sm hover:shadow-md transition-all duration-300"
-                >
-                  <div className={`text-2xl font-bold bg-gradient-to-r ${stat.color} bg-clip-text text-transparent`}>
-                    {stat.number}
-                  </div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">{stat.label}</div>
-                </motion.div>
-              ))}
+              {/* Calendly Section */}
+              <div className="pt-4">
+                <div className="flex flex-col items-start space-y-4">
+          
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Want to discuss a collaboration? Let&apos;s schedule a meeting.
+                  </p>
+                  <Link
+                    href="https://calendly.com/ihab-heb/collab"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r 
+                             from-purple-600 to-indigo-600 text-white font-medium 
+                             hover:from-purple-700 hover:to-indigo-700 transition-all duration-300"
+                  >
+                    <span>Schedule Time</span>
+                    <svg 
+                      className="w-5 h-5" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24"
+                    >
+                      <path 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        strokeWidth={2} 
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
+                      />
+                    </svg>
+                  </Link>
+                </div>
+              </div>
             </div>
           </motion.div>
         </div>
