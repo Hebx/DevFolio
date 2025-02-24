@@ -5,12 +5,7 @@ import { motion } from "framer-motion";
 const skillCategories = [
   {
     title: "Blockchain",
-    skills: [
-      { name: "Smart Contracts", level: 90 },
-      { name: "Web3", level: 85 },
-      { name: "DeFi", level: 80 },
-      { name: "Solidity", level: 85 },
-    ],
+    skills: ["Smart Contracts", "Web3", "DeFi", "Solidity", "zk-SNARKS", "Ethereum"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -19,12 +14,7 @@ const skillCategories = [
   },
   {
     title: "Development",
-    skills: [
-      { name: "Full Stack", level: 85 },
-      { name: "TypeScript", level: 80 },
-      { name: "Node.js", level: 85 },
-      { name: "React", level: 80 },
-    ],
+    skills: ["Full Stack", "TypeScript", "Node.js", "React", "Next.js", "REST APIs"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
@@ -33,12 +23,7 @@ const skillCategories = [
   },
   {
     title: "AI & Research",
-    skills: [
-      { name: "AI Integration", level: 85 },
-      { name: "ML Models", level: 75 },
-      { name: "Research", level: 90 },
-      { name: "Data Analysis", level: 80 },
-    ],
+    skills: ["AI Integration", "ML Models", "Research", "Data Analysis", "GPU Computing", "Autonomous Agents"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -81,14 +66,17 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: categoryIndex * 0.2 }}
-              className="group relative p-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-200/50 dark:border-gray-700/50 shadow-xl dark:shadow-gray-900/10 hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
+              className="group relative p-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl 
+                         border border-gray-200/50 dark:border-gray-700/50 shadow-xl dark:shadow-gray-900/10 
+                         hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
             >
-
               <div className="relative">
                 <div className="flex items-center gap-4 mb-8">
                   <motion.span 
                     whileHover={{ scale: 1.1 }}
-                    className="p-3 bg-purple-500/10 dark:bg-purple-500/20 rounded-xl text-purple-600 dark:text-purple-400 ring-1 ring-purple-500/20 dark:ring-purple-500/30"
+                    className="p-3 bg-purple-500/10 dark:bg-purple-500/20 rounded-xl 
+                             text-purple-600 dark:text-purple-400 ring-1 ring-purple-500/20 
+                             dark:ring-purple-500/30"
                   >
                     {category.icon}
                   </motion.span>
@@ -97,40 +85,20 @@ export default function Skills() {
                   </h3>
                 </div>
 
-                <div className="space-y-6">
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <motion.div
-                      key={skill.name}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                    <motion.span
+                      key={skill}
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
                       viewport={{ once: true }}
                       transition={{ delay: (categoryIndex * 0.2) + (skillIndex * 0.1) }}
+                      className="px-3 py-1 bg-purple-500/5 dark:bg-purple-500/10 
+                               text-purple-600 dark:text-purple-400 rounded-lg text-sm 
+                               border border-purple-500/10 dark:border-purple-500/20"
                     >
-                      <div className="flex justify-between mb-2">
-                        <span className="text-sm font-medium text-gray-800 dark:text-gray-200">
-                          {skill.name}
-                        </span>
-                        <span className="text-sm font-medium text-purple-600 dark:text-purple-400">
-                          {skill.level}%
-                        </span>
-                      </div>
-                      <div className="h-2 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${skill.level}%` }}
-                          viewport={{ once: true }}
-                          transition={{ 
-                            duration: 1.5, 
-                            ease: [0.34, 1.56, 0.64, 1],
-                            delay: (categoryIndex * 0.2) + (skillIndex * 0.1) 
-                          }}
-                          className="h-full bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full relative"
-                        >
-                          {/* Animated Glow Effect */}
-                          <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent animate-shimmer" />
-                        </motion.div>
-                      </div>
-                    </motion.div>
+                      {skill}
+                    </motion.span>
                   ))}
                 </div>
               </div>
