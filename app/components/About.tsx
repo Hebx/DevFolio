@@ -66,7 +66,7 @@ export default function About() {
           >
             <div className="relative group">              
               {/* Image Container */}
-              <div className="relative rounded-lg overflow-hidden bg-white">
+              <div className="relative rounded-lg overflow-hidden bg-white dark:bg-gray-800">
                 <Link href="#hero">
                   <Image
                     src="/Images/devcon7.jpg"
@@ -92,7 +92,7 @@ export default function About() {
               About Me
             </h2>
 
-            <div className="space-y-6 text-gray-600 dark:text-gray-300">
+            <div className="space-y-6 text-gray-700 dark:text-gray-200">
               <p>
               Innovative, dynamic and visionary technologist with a deep mastery of
 software development, cutting-edge tools, and programming languages. 
@@ -122,13 +122,10 @@ that redefine the financial and technological frontiers of tomorrow.</p>
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex items-center gap-3 px-4 py-3 rounded-lg bg-white/50 dark:bg-gray-800/50 
-                             border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-500/50 
-                             dark:hover:border-purple-500/50 transition-all duration-300"
+                    className="group flex items-center gap-3 px-4 py-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-purple-500 dark:hover:border-purple-500 transition-all duration-300"
                   >
                     <span className="text-purple-600 dark:text-purple-400">{link.icon}</span>
-                    <span className="text-sm font-medium text-gray-600 dark:text-gray-300 
-                                   group-hover:text-purple-600 dark:group-hover:text-purple-400">
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-200 group-hover:text-purple-600 dark:group-hover:text-purple-400">
                       {link.name}
                     </span>
                   </Link>
@@ -139,7 +136,7 @@ that redefine the financial and technological frontiers of tomorrow.</p>
               <div className="pt-4">
                 <div className="flex flex-col items-start space-y-4">
           
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <p className="text-gray-700 dark:text-gray-200">
                     Want to discuss a collaboration? Let&apos;s schedule a meeting.
                   </p>
                   <Link

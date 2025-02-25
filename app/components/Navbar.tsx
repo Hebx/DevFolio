@@ -54,7 +54,7 @@ export default function Navbar() {
         animate={{ y: 0 }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? "bg-white/90 dark:bg-black/90 backdrop-blur-lg shadow-lg"
+            ? "bg-white dark:bg-gray-900 shadow-lg"
             : "bg-transparent"
         }`}
       >
@@ -79,7 +79,7 @@ export default function Navbar() {
                   className={`relative px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
                     activeSection === item.href.substring(1)
                       ? "text-purple-600 dark:text-purple-400"
-                      : "text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                      : "text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400"
                   }`}
                 >
                   {item.name}
@@ -99,7 +99,7 @@ export default function Navbar() {
               {/* Theme Toggle */}
               <button
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                className="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 focus:outline-none transition-colors duration-300"
+                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 focus:outline-none transition-colors duration-300"
                 aria-label="Toggle theme"
               >
                 {theme === 'dark' ? (
@@ -137,7 +137,7 @@ export default function Navbar() {
               {/* Theme Toggle for Mobile */}
               <button
                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                className="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 focus:outline-none mr-2"
+                className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 focus:outline-none mr-2"
                 aria-label="Toggle theme"
               >
                 {theme === 'dark' ? (
@@ -159,7 +159,7 @@ export default function Navbar() {
               <button
                 type="button"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 focus:outline-none"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20 focus:outline-none"
                 aria-label="Main menu"
               >
                 {isMobileMenuOpen ? (
@@ -195,7 +195,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-16 left-0 right-0 z-40 bg-white/95 dark:bg-black/95 backdrop-blur-lg shadow-lg md:hidden"
+            className="fixed top-16 left-0 right-0 z-40 bg-white dark:bg-gray-900 shadow-lg md:hidden"
           >
             <div className="px-4 pt-2 pb-4 space-y-1">
               {navItems.map((item) => (
@@ -206,7 +206,7 @@ export default function Navbar() {
                   className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
                     activeSection === item.href.substring(1)
                       ? "text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-900/20"
-                      : "text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20"
+                      : "text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/20"
                   }`}
                 >
                   {item.name}

@@ -42,7 +42,7 @@ export default function Footer() {
   const [hoverIndex, setHoverIndex] = useState<number | null>(null);
   
   return (
-    <footer className="relative bg-white dark:bg-black text-gray-800 dark:text-white overflow-hidden">
+    <footer className="relative bg-white dark:bg-black text-gray-700 dark:text-gray-200 overflow-hidden">
       {/* Use the same background gradient as Hero */}
       <BackgroundGradient />
       
@@ -60,7 +60,7 @@ export default function Footer() {
                 </span>
               </div>
             </Link>
-            <p className="text-gray-600 dark:text-gray-300 max-w-sm">
+            <p className="text-gray-700 dark:text-gray-200 max-w-sm">
              Welcome Anon to Web3 and the Cypherpunk Movement, Join us on this path that very few walk. Join us on the journey to secure the peoples internet. May we soar to new heights and have our name echoed through the decentralized web.
             </p>
             <div className="flex gap-4">
@@ -74,7 +74,7 @@ export default function Footer() {
                   onMouseLeave={() => setHoverIndex(null)}
                   whileHover={{ y: -5 }}
                   whileTap={{ scale: 0.95 }}
-                  className="p-3 rounded-lg bg-gray-100 dark:bg-white/5 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-white hover:bg-purple-50 dark:hover:bg-purple-500/20 transition-all duration-300"
+                  className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/50 transition-all duration-300"
                   aria-label={social.name}
                 >
                   {social.icon}
@@ -83,7 +83,7 @@ export default function Footer() {
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 10 }}
-                      className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-2 py-1 rounded"
+                      className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-2 py-1 rounded"
                     >
                       {social.name}
                     </motion.span>
@@ -95,7 +95,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-6 relative inline-block">
+            <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6 relative inline-block">
               Quick Links
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"></span>
             </h3>
@@ -104,7 +104,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors flex items-center gap-2 group"
+                    className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors flex items-center gap-2 group"
                   >
                     <span className="w-1.5 h-1.5 rounded-full bg-purple-500/50 group-hover:bg-purple-400 transition-colors"></span>
                     {link.name}
@@ -116,18 +116,18 @@ export default function Footer() {
 
           {/* Contact Section */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-6 relative inline-block">
+            <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6 relative inline-block">
               Get in Touch
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"></span>
             </h3>
             <div className="space-y-4">
-              <p className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+              <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                 <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 Ihab.Hormi@hotmail.com
               </p>
-              <p className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
+              <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
                 <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -139,11 +139,11 @@ export default function Footer() {
 
           {/* Newsletter/Calendly Section */}
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-6 relative inline-block">
+            <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6 relative inline-block">
               Schedule a Meeting
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"></span>
             </h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
               Want to discuss a project or collaboration opportunity?
             </p>
             <Link
@@ -161,7 +161,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-200 dark:border-gray-800/50 py-8">
+        <div className="border-t border-gray-200 dark:border-gray-800 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 dark:text-gray-400 text-sm">
               © {new Date().getFullYear()} HEBX LTD. All rights reserved.
@@ -169,7 +169,7 @@ export default function Footer() {
             <motion.a
               href="#"
               whileHover={{ y: -5 }}
-              className="p-3 rounded-full bg-gray-100 dark:bg-white/5 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-white hover:bg-purple-50 dark:hover:bg-purple-500/20 transition-all duration-300"
+              className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/50 transition-all duration-300"
               aria-label="Back to top"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

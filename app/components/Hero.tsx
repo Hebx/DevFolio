@@ -126,7 +126,7 @@ export default function Hero() {
               </motion.h2>
 
               <motion.p 
-                className="text-xl leading-relaxed text-gray-600 dark:text-gray-300 max-w-2xl tracking-wide"
+                className="text-xl leading-relaxed text-gray-700 dark:text-gray-200 max-w-2xl tracking-wide"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}

@@ -68,7 +68,7 @@ export default function Experience() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="mt-4 text-lg text-gray-600 dark:text-gray-300"
+            className="mt-4 text-lg text-gray-700 dark:text-gray-200"
           >
             Professional journey in blockchain and web3 development
           </motion.p>
@@ -82,14 +82,14 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="group relative p-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl 
-                       border border-gray-200/50 dark:border-gray-700/50 shadow-xl dark:shadow-gray-900/10 
+              className="group relative p-8 bg-white dark:bg-gray-800 rounded-2xl 
+                       border border-gray-200 dark:border-gray-700 shadow-xl dark:shadow-none 
                        hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
             >
               <div className="flex flex-col lg:flex-row gap-8">
                 <div className="flex-shrink-0">
-                  <span className="flex items-center justify-center w-12 h-12 bg-purple-500/10 dark:bg-purple-500/20 
-                                 text-purple-600 dark:text-purple-400 rounded-xl text-2xl">
+                  <span className="flex items-center justify-center w-12 h-12 bg-purple-100 dark:bg-purple-900 
+                                 text-purple-600 dark:text-purple-300 rounded-xl text-2xl">
                     {exp.icon}
                   </span>
                 </div>
@@ -98,24 +98,24 @@ export default function Experience() {
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                       {exp.title}
                     </h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                      <span className="px-3 py-1 rounded-full bg-purple-500/5 dark:bg-purple-500/10 
-                                   text-purple-600 dark:text-purple-400">
+                    <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                      <span className="px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900 
+                                   text-purple-700 dark:text-purple-300">
                         {exp.company}
                       </span>
-                      <span>•</span>
+                      <span className="dark:text-gray-400">•</span>
                       <span>{exp.period}</span>
-                      <span>•</span>
+                      <span className="dark:text-gray-400">•</span>
                       <span>{exp.location}</span>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  <p className="text-gray-700 dark:text-gray-200 mb-4">
                     {exp.description}
                   </p>
                   <ul className="space-y-2">
                     {exp.highlights.map((highlight, i) => (
-                      <li key={i} className="flex items-start gap-2 text-gray-600 dark:text-gray-300">
-                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-purple-500/50" />
+                      <li key={i} className="flex items-start gap-2 text-gray-700 dark:text-gray-200">
+                        <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-purple-500 dark:bg-purple-400" />
                         {highlight}
                       </li>
                     ))}

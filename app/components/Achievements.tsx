@@ -111,7 +111,7 @@ export default function Achievements() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group p-6 bg-white dark:bg-gray-800/50 rounded-xl border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
+              className="group p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-purple-500 dark:hover:border-purple-500 transition-all duration-300"
             >
               <div className="flex items-start gap-4">
                 <span className="text-2xl">{award.icon}</span>
@@ -119,7 +119,7 @@ export default function Achievements() {
                   <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-sm">
                     {award.title}
                   </h3>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                  <p className="text-xs text-gray-700 dark:text-gray-300 mt-1">
                     {award.organization}
                   </p>
                 </div>
@@ -148,7 +148,7 @@ export default function Achievements() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group p-6 bg-white dark:bg-gray-800/50 rounded-xl border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
+              className="group p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-purple-500 dark:hover:border-purple-500 transition-all duration-300"
             >
               <div className="flex items-start gap-4">
                 <span className="text-2xl">{cert.icon}</span>
@@ -156,7 +156,7 @@ export default function Achievements() {
                   <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-sm">
                     {cert.title}
                   </h3>
-                  <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
+                  <p className="text-xs text-gray-700 dark:text-gray-300 mt-1">
                     {cert.organization}
                   </p>
                 </div>

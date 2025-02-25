@@ -50,7 +50,7 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="mt-4 text-lg text-gray-600 dark:text-gray-300"
+          className="mt-4 text-lg text-gray-700 dark:text-gray-200"
         >
           A showcase of my technical skills and proficiency across different domains
         </motion.p>
@@ -64,17 +64,15 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: categoryIndex * 0.2 }}
-            className="group relative p-8 bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl 
-                       border border-gray-200/50 dark:border-gray-700/50 shadow-xl dark:shadow-gray-900/10 
-                       hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
+            className="group relative p-8 bg-white dark:bg-gray-800 rounded-2xl 
+                       border border-gray-200 dark:border-gray-700 shadow-xl dark:shadow-none 
+                       hover:border-purple-500/50 transition-all duration-300"
           >
             <div className="relative">
               <div className="flex items-center gap-4 mb-8">
                 <motion.span 
                   whileHover={{ scale: 1.1 }}
-                  className="p-3 bg-purple-500/10 dark:bg-purple-500/20 rounded-xl 
-                           text-purple-600 dark:text-purple-400 ring-1 ring-purple-500/20 
-                           dark:ring-purple-500/30"
+                  className="p-3 bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-300 ring-1 ring-purple-500/20 dark:ring-purple-400/20"
                 >
                   {category.icon}
                 </motion.span>
@@ -91,9 +89,8 @@ export default function Skills() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: (categoryIndex * 0.2) + (skillIndex * 0.1) }}
-                    className="px-3 py-1 bg-purple-500/5 dark:bg-purple-500/10 
-                             text-purple-600 dark:text-purple-400 rounded-lg text-sm 
-                             border border-purple-500/10 dark:border-purple-500/20"
+                    className="px-3 py-1 bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 rounded-lg text-sm 
+                             border border-purple-200 dark:border-purple-800"
                   >
                     {skill}
                   </motion.span>
