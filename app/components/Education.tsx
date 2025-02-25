@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import SectionBackground from "./SectionBackground";
 
 const education = [
   {
@@ -32,9 +33,7 @@ const education = [
 
 export default function Education() {
   return (
-    <section id="education" className="relative py-20 bg-white dark:bg-black">
-      <div className="absolute top-0 right-0 w-full h-96 bg-gradient-to-b from-purple-100/20 dark:from-purple-900/20 via-transparent to-transparent" />
-      
+    <SectionBackground id="education" className="py-24">
       <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-20">
           <motion.h2
@@ -108,6 +107,6 @@ export default function Education() {
           ))}
         </div>
       </div>
-    </section>
+    </SectionBackground>
   );
 } 

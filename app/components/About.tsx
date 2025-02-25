@@ -3,37 +3,40 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import SectionBackground from "./SectionBackground";
+import { FaGithub, FaLinkedin, FaTwitter, FaTelegram } from "react-icons/fa";
 
 const socialLinks = [
+
   {
-    name: "Talent Protocol",
-    url: "https://app.talentprotocol.com/profile/2912579",
-    icon: "🎯",
+    name: "Telegram",
+    url: "https://t.me/lord_heb",
+    icon: <FaTelegram className="w-5 h-5" />,
   },
   {
     name: "GitHub",
     url: "https://github.com/hebx",
-    icon: "💻",
+    icon: <FaGithub className="w-5 h-5" />,
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/ihab-hormi-552b63219/",
-    icon: "🔗",
+    icon: <FaLinkedin className="w-5 h-5" />,
   },
   {
     name: "Twitter",
     url: "https://x.com/lordheb",
-    icon: "X",
+    icon: <FaTwitter className="w-5 h-5" />,
   },
   {
     name: "Farcaster",
     url: "https://warpcast.com/lordheb.eth",
-    icon: "🪞",
+    icon: "🔮",
   },
   {
     name: "Lens",
     url: "https://hey.xyz/u/@lordheb",
-    icon: "🌿",
+    icon: "🌱",
   },
   {
     name: "Basename",
@@ -41,17 +44,16 @@ const socialLinks = [
     icon: "💎",
   },
   {
-    name: "Telegram",
-    url: "https://t.me/lord_heb",
-    icon: "💬",
+    name: "Talent",
+    url: "https://app.talentprotocol.com/profile/2912579",
+    icon: "🥷🏻",
   }
+
 ];
 
 export default function About() {
   return (
-    <section id="about" className="relative py-20 bg-white dark:bg-black">
-      <div className="absolute bottom-0 right-0 w-full h-96 bg-gradient-to-t from-purple-100/20 dark:from-purple-900/20 via-transparent to-transparent" />
-      
+    <SectionBackground id="about" className="py-24">
       <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-start gap-16">
           {/* Image Section */}
@@ -65,13 +67,15 @@ export default function About() {
             <div className="relative group">              
               {/* Image Container */}
               <div className="relative rounded-lg overflow-hidden bg-white">
-                <Image
-                  src="/Images/devcon7.jpg"
-                  alt="Hebx Devfolio"
-                  width={600}
-                  height={700}
-                  className="object-cover transition duration-300 group-hover:scale-105"
-                />
+                <Link href="#hero">
+                  <Image
+                    src="/Images/devcon7.jpg"
+                    alt="Hebx Devfolio"
+                    width={600}
+                    height={700}
+                    className="object-cover transition duration-300 group-hover:scale-105 cursor-pointer"
+                  />
+                </Link>
               </div>
             </div>
           </motion.div>
@@ -84,31 +88,31 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="lg:w-1/2 space-y-8"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
+            <h2 className="text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400">
               About Me
             </h2>
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p>
-                I&apos;m a passionate software developer with a deep mastery of software development, 
-                cutting-edge tools, and programming languages.
-              </p>
-              
-              <p>
-                With extensive expertise in Full Stack Web3 Development, Smart Contract Programming, 
-                and Blockchain Research, I bring a proven track record in harnessing AI agents to 
-                shape the emerging Crypto x AI landscape.
-              </p>
+              Innovative, dynamic and visionary technologist with a deep mastery of
+software development, cutting-edge tools, and programming languages. 
+</p>
+<p>I bring extensive expertise in Full Stack Web Development, Smart Contract
+Programming, and Blockchain Research, complemented by a proven track
+record in harnessing Al Agents to shape the emerging Crypto x Al
+landscape.
+</p>
 
-              <p>
-                I&apos;m passionate about integrating decentralized systems with intelligent automation, 
-                eager to drive innovation at the intersection of blockchain and artificial intelligence.
-              </p>
+<p> Passionate about integrating decentralized systems with
+intelligent automation, I am eager to drive innovation at the intersection of
+Blockchain and Artificial intelligence, delivering transformative solutions
+that redefine the financial and technological frontiers of tomorrow.</p>
+            
             </div>
 
             {/* Social Links */}
             <div className="pt-6 space-y-8">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
+              <h3 className="text-lg font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 mb-4">
                 Connect With Me
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -118,11 +122,11 @@ export default function About() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex items-center gap-2 px-4 py-2 rounded-lg bg-white/50 dark:bg-gray-800/50 
+                    className="group flex items-center gap-3 px-4 py-3 rounded-lg bg-white/50 dark:bg-gray-800/50 
                              border border-gray-200/50 dark:border-gray-700/50 hover:border-purple-500/50 
                              dark:hover:border-purple-500/50 transition-all duration-300"
                   >
-                    <span className="text-xl">{link.icon}</span>
+                    <span className="text-purple-600 dark:text-purple-400">{link.icon}</span>
                     <span className="text-sm font-medium text-gray-600 dark:text-gray-300 
                                    group-hover:text-purple-600 dark:group-hover:text-purple-400">
                       {link.name}
@@ -167,6 +171,6 @@ export default function About() {
           </motion.div>
         </div>
       </div>
-    </section>
+    </SectionBackground>
   );
 }
