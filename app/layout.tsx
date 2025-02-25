@@ -8,8 +8,8 @@ import { ThemeProvider } from 'next-themes';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ihab Hormi - Portfolio",
-  description: "Full Stack Web3 Developer & Blockchain Researcher",
+  title: "Ihab Heb - DevFolio",
+  description: "Blockchain & AI Developer Portfolio",
 };
 
 export default function RootLayout({

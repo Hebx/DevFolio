@@ -145,7 +145,7 @@ that redefine the financial and technological frontiers of tomorrow.</p>
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r 
                              from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 
-                             text-white font-medium transition-all duration-300 dark:from-purple-400 dark:to-indigo-400 dark:text-purple-400"
+                             text-white font-medium transition-all duration-300 dark:text-white-400"
                   >
                     <span>Schedule Time</span>
                     <svg 
