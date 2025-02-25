@@ -55,7 +55,7 @@ export default function Footer() {
             <Link href="#" className="inline-block">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">⚡</span>
-                <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400">
+                <span className="text-2xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400">
                   GM
                 </span>
               </div>

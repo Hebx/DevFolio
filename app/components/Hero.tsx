@@ -90,7 +90,7 @@ export default function Hero() {
                 onClick={() => {
                   document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="text-5xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-600 via-pink-500 to-indigo-600 dark:from-purple-400 dark:via-pink-400 dark:to-indigo-400 cursor-pointer"
+                className="text-5xl lg:text-7xl font-bold text-pink-500 dark:text-pink-400 bg-clip-text text-transparent bg-gradient-to-br from-purple-600 via-pink-500 to-indigo-600 dark:from-purple-400 dark:via-pink-400 dark:to-indigo-400 cursor-pointer"
                 initial={{ opacity: 0, scale: 0.5, y: 50 }}
                 animate={{ 
                   opacity: 1, 
@@ -117,7 +117,7 @@ export default function Hero() {
               </motion.h2>
               
               <motion.h2 
-                className="text-5xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
+                className="text-5xl lg:text-7xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}

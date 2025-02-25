@@ -55,7 +55,7 @@ export default function Navbar() {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
             ? "bg-white dark:bg-gray-900 shadow-lg"
-            : "bg-transparent"
+            : "bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm"
         }`}
       >
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,7 +63,7 @@ export default function Navbar() {
             {/* Logo/Name */}
             <Link
               href="#"
-              className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 flex items-center"
+              className="text-xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 flex items-center"
             >
               <span className="mr-2 text-2xl">⚡</span>
               <span className="hidden sm:inline">GM</span>
@@ -179,7 +179,7 @@ export default function Navbar() {
         {/* Progress Bar */}
         <div className="h-0.5 bg-gray-200 dark:bg-gray-800">
           <motion.div
-            className="h-full bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
+            className="h-full bg-purple-600 dark:bg-purple-400"
             style={{
               width: `${(window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100}%`,
             }}

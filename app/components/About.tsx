@@ -88,7 +88,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="lg:w-1/2 space-y-8"
           >
-            <h2 className="text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400">
+            <h2 className="text-3xl lg:text-4xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400">
               About Me
             </h2>
 
@@ -112,7 +112,7 @@ that redefine the financial and technological frontiers of tomorrow.</p>
 
             {/* Social Links */}
             <div className="pt-6 space-y-8">
-              <h3 className="text-lg font-semibold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 mb-4">
+              <h3 className="text-lg font-semibold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 mb-4">
                 Connect With Me
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
