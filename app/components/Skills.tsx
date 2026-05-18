@@ -33,7 +33,7 @@ const skillCategories = [
   },
   {
     title: "Security Research",
-    skills: ["Smart Contract Auditing", "Offensive Security", "OpSec", "Rust Security", "Protocol Research", "ZK / Proof Systems", "zk-Rollups", "Fuzzing", "Echidna", "Glider", "DeFi Security", "TEE"],
+    skills: ["Smart Contract Auditing", "Offensive Security", "Penetration Testing", "OpSec", "On-Chain Analysis", "Rust Security", "Protocol Research", "ZK / Proof Systems", "zk-Rollups", "Fuzzing", "Echidna", "Glider", "DeFi Security", "TEE"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
