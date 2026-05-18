@@ -5,6 +5,11 @@ import SectionBackground from "./SectionBackground";
 
 const awards = [
   {
+    title: "Hedron — Hedera Africa Hackathon Top 3 AI & DePIN",
+    organization: "Hedera / DoraHacks / Glorian Labs",
+    icon: "🏆",
+  },
+  {
     title: "Mode AI Founders Incubation Top 3",
     organization: "Mode AI",
     icon: "🏆",
@@ -47,6 +52,21 @@ const awards = [
 ];
 
 const certifications = [
+  {
+    title: "RektOff Rust Security Bootcamp",
+    organization: "RektOff",
+    icon: "🦀",
+  },
+  {
+    title: "Uniswap Hook Incubator Cohort 8",
+    organization: "Atrium Academy / Uniswap Ecosystem",
+    icon: "🦄",
+  },
+  {
+    title: "Solana Developer Certification",
+    organization: "Solana Ecosystem",
+    icon: "☀️",
+  },
   {
     title: "Certificate of Appreciation as a guest speaker",
     organization: "Blockchain & Web3 Workshop - Abu Dhabi University",

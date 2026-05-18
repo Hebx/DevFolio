@@ -15,7 +15,7 @@ const socialLinks = [
   },
   {
     name: "GitHub",
-    url: "https://github.com/hebx",
+    url: "https://github.com/Hebx",
     icon: <FaGithub className="w-5 h-5" />,
   },
   {
@@ -94,20 +94,14 @@ export default function About() {
 
             <div className="space-y-6 text-gray-700 dark:text-gray-200">
               <p>
-              Innovative, dynamic and visionary technologist with a deep mastery of
-software development, cutting-edge tools, and programming languages. 
-</p>
-<p>I bring extensive expertise in Full Stack Web Development, Smart Contract
-Programming, and Blockchain Research, complemented by a proven track
-record in harnessing Al Agents to shape the emerging Crypto x Al
-landscape.
-</p>
-
-<p> Passionate about integrating decentralized systems with
-intelligent automation, I am eager to drive innovation at the intersection of
-Blockchain and Artificial intelligence, delivering transformative solutions
-that redefine the financial and technological frontiers of tomorrow.</p>
-            
+                I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Ihab / Hebx</span> — a blockchain engineer, AI agent infrastructure builder, and security-minded technologist exploring the frontier where decentralized systems meet intelligent automation.
+              </p>
+              <p>
+                I think like a futurist and build like an engineer: turning emerging ideas around agents, protocols, cryptographic coordination, and Web3 economies into working prototypes, research artifacts, and production-minded systems.
+              </p>
+              <p>
+                My work spans smart contracts, full-stack applications, autonomous agent workflows, protocol research, hackathon-winning builds, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup building systems for the agentic economy.
+              </p>
             </div>
 
             {/* Social Links */}

@@ -5,8 +5,8 @@ import SectionBackground from "./SectionBackground";
 
 const skillCategories = [
   {
-    title: "Blockchain",
-    skills: ["Smart Contracts Development & Security", "Web3", "DeFi", "Solidity", "zk-Rollups", "EVM", "Teal", "Algorand", "Cairo", "Starknet", "Cosmos IBC", "Solana Programs", "Rust", "NFTs", "DAOs", "RWA"],
+    title: "Blockchain & Protocol",
+    skills: ["Smart Contracts", "Solidity", "EVM", "Hedera / HCS", "Solana", "Uniswap v4 Hooks", "Chainlink", "Cairo / Starknet", "Cosmos IBC", "Rust", "zk-Rollups", "ZK / Proof Systems", "x402", "A2A / MCP", "DeFi", "NFTs", "DAOs", "RWA"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -14,8 +14,8 @@ const skillCategories = [
     ),
   },
   {
-    title: "Software",
-    skills: ["Full Stack Web Development & Security", "TypeScript", "Node.js", "React", "Next.js", "REST APIs", "MongoDB", "Supabase", "GraphQL", "Docker", "Vercel", "CI/CD", "AWS", "TEE", "Tailwind CSS", "shadcn/ui" , "C" ],
+    title: "Software & Full-Stack",
+    skills: ["TypeScript", "Node.js", "React", "Next.js", "TanStack Router", "OpenAPI SDKs", "REST APIs", "GraphQL", "Auth / Authentik", "MongoDB", "Supabase", "Docker", "Vercel", "CI/CD", "AWS", "TEE", "Tailwind CSS", "shadcn/ui", "C"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
@@ -23,8 +23,8 @@ const skillCategories = [
     ),
   },
   {
-    title: "AI & Research",
-    skills: ["LLM Integration", "RAG", "Agentic Frameworks", "Decentralized Computing [GPU]", "Autonomous Agents", "Decentralized Infrastructure [Nodes]", "AI Inference", "Decentralized AI"],
+    title: "AI Agents, Security & Research",
+    skills: ["AI Agents", "Agentic Workflows", "Agentic Frameworks", "LLM Integration", "RAG", "Autonomous Agents", "AI Inference", "Azure OpenAI Integration", "Decentralized AI", "Decentralized Computing [GPU]", "Decentralized Infrastructure [Nodes]", "Security Research", "Rust Security", "Smart Contract Security", "Protocol Research"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />

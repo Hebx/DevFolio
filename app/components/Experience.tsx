@@ -5,15 +5,44 @@ import SectionBackground from "./SectionBackground";
 
 const experiences = [
   {
-    title: "Blockchain Researcher & Developer",
+    title: "Independent Web3 & AI Infrastructure Builder",
+    company: "Founder-Led R&D / Glorian Labs",
+    period: "2026 - Present",
+    location: "Remote",
+    description:
+      "Building public proof-of-work across AI agents, Web3 infrastructure, smart contracts, security research, and protocol-facing products through an early-stage agentic agency/startup.",
+    highlights: [
+      "Building Glorian Labs as an early-stage agentic agency and AI × Web3 startup focused on autonomous systems, verifiable coordination, and protocol-facing infrastructure.",
+      "Developing Hedron, a Hedera-native SDK for agentic commerce and verifiable agent coordination.",
+      "Exploring proof networks, decentralized AI, agentic payments, security tooling, and machine-native coordination through active founder-led prototypes.",
+    ],
+    icon: "🧪",
+  },
+  {
+    title: "Full-Stack Engineer",
+    company: "DataPhleet",
+    period: "Recent",
+    location: "Remote",
+    description:
+      "Built full-stack product features across modern TypeScript, React, API integration, authentication, and AI-enabled platform workflows.",
+    highlights: [
+      "Worked with React, TanStack Router, generated OpenAPI SDKs, DTO mapping, and modern frontend architecture.",
+      "Integrated authentication and platform workflows using Authentik and backend API contracts.",
+      "Contributed to AI-enabled platform features involving Azure OpenAI proxy integration and deployment-aware engineering contexts.",
+    ],
+    icon: "🧩",
+  },
+  {
+    title: "Full-Stack & Blockchain Engineer",
     company: "Capture Alpha",
     period: "11/2022 - Present",
     location: "Remote",
-    description: "Blockchain solutions leader dedicated to providing infrastructure, validator services, and investments",
+    description:
+      "Full-stack and blockchain engineering across infrastructure, validator services, and AI-native compute products.",
     highlights: [
-      "Founding Engineer of Launch.box, a decentralized computing paradigm that uses autonomous AI agents to orchestrate GPU compute allocation, optimization, AI Inferences and monitoring Node Deployments",
+      "Founding engineer on Launch.box — a decentralized computing paradigm where autonomous AI agents orchestrate GPU compute allocation, optimization, AI inference, and node deployment monitoring.",
     ],
-    icon: "🔗"
+    icon: "🔗",
   },
   {
     title: "QA Engineer",
@@ -70,7 +99,7 @@ export default function Experience() {
             transition={{ delay: 0.2 }}
             className="mt-4 text-lg text-gray-700 dark:text-gray-200"
           >
-            Professional journey in blockchain and web3 development
+            Professional journey across blockchain, AI agent infrastructure, and full-stack engineering
           </motion.p>
         </div>
 

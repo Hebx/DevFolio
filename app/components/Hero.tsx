@@ -116,50 +116,69 @@ export default function Hero() {
                 Ihab Heb
               </motion.h2>
               
-              <motion.h2 
-                className="text-5xl lg:text-7xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
+              <motion.h2
+                className="text-4xl lg:text-6xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
               >
-               Blockchain & AI Developer
+               Blockchain Engineer & AI Agent Infrastructure Builder
               </motion.h2>
 
-              <motion.p 
+              <motion.p
                 className="text-xl leading-relaxed text-gray-700 dark:text-gray-200 max-w-2xl tracking-wide"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                Visionary, Futurist and Digital Nomad exploring the fascinating intersection of 
-                <span className="text-purple-600 dark:text-purple-400"> Blockchain </span> 
-                & 
-                <span className="text-indigo-600 dark:text-indigo-400"> Artificial Intelligence</span>.
-                Currently focusing on developing and researching autonomous
-                <span className="text-indigo-600 dark:text-indigo-400"> AI Agents </span>
-                & 
-                <span className="text-purple-600 dark:text-purple-400"> Web3 Infrastructure</span>.
+                Visionary technologist and protocol-minded builder working at the intersection of
+                <span className="text-purple-600 dark:text-purple-400"> blockchain </span>,
+                <span className="text-indigo-600 dark:text-indigo-400"> AI agents </span>,
+                security research, and decentralized infrastructure. I design and ship systems for
+                <span className="text-indigo-600 dark:text-indigo-400"> autonomous coordination </span>,
+                intelligent automation, and the next wave of
+                <span className="text-purple-600 dark:text-purple-400"> machine-native economic networks</span>.
               </motion.p>
 
-              <motion.div 
+              <motion.div
+                className="flex flex-wrap gap-2 pt-2"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.45 }}
+              >
+                {[
+                  "Web3 Infrastructure",
+                  "AI Agents",
+                  "Smart Contracts",
+                  "Security Research",
+                  "Protocol R&D",
+                ].map((badge) => (
+                  <span
+                    key={badge}
+                    className="px-3 py-1 text-xs font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
+                  >
+                    {badge}
+                  </span>
+                ))}
+              </motion.div>
+
+              <motion.div
                 className="flex flex-wrap gap-4 pt-8"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
               >
-                <motion.a
-                  href="https://beige-disgusted-swordfish-225.mypinata.cloud/ipfs/bafybeif2exmukmax6ju6uttf4hultx4ftejc2rhqq7p4zxua4ygveqjer4"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <motion.button
+                  onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium transition-all duration-300 dark:text-white-400"
                 >
-                  <span>Download CV</span>
+                  <span>Active Builds & Research</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                   </svg>
-                </motion.a>
+                </motion.button>
 
                 <motion.a
                   href="mailto:Ihab.Hormi@hotmail.com"
@@ -170,6 +189,20 @@ export default function Hero() {
                   <span>Contact Me</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </motion.a>
+
+                <motion.a
+                  href="https://beige-disgusted-swordfish-225.mypinata.cloud/ipfs/bafybeif2exmukmax6ju6uttf4hultx4ftejc2rhqq7p4zxua4ygveqjer4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="flex items-center gap-2 px-6 py-3 rounded-full border border-purple-500/30 text-purple-600 dark:text-purple-400 hover:text-purple-500 dark:hover:text-purple-300 hover:border-purple-500/60 transition-all duration-300"
+                >
+                  <span>Download CV</span>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                 </motion.a>
               </motion.div>

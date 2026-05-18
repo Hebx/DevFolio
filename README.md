@@ -1,14 +1,21 @@
-# Ihab Heb - Blockchain & AI Developer Portfolio
+# Ihab Heb / Hebx — Blockchain Engineer & AI Agent Infrastructure Builder
 
 ![Portfolio Preview](./public/Images/preview.png)
 
 ## 🚀 Overview
 
-A modern, responsive portfolio showcasing my expertise as a Blockchain & AI Developer. This portfolio highlights my projects, skills, and professional journey at the intersection of blockchain technology and artificial intelligence.
+Personal portfolio for Ihab / Hebx, a blockchain engineer, full-stack developer, and AI agent infrastructure builder working across Web3 systems, autonomous agents, smart contracts, security research, and protocol-oriented products.
 
 ## 👨‍💻 About Me
 
-I'm Ihab Heb, a visionary technologist with deep expertise in blockchain development, AI integration, and full-stack web development. I focus on creating secure, scalable, and innovative solutions that bridge the gap between decentralized systems and intelligent automation.
+Visionary technologist and futurist builder operating at the intersection of blockchain engineering, AI agents, full-stack engineering, Web3 infrastructure, and security research. Currently running active founder-led R&D through **Glorian Labs**, an early-stage agentic agency and AI × Web3 startup, while contributing as a full-stack engineer at **DataPhleet**.
+
+Recent highlights:
+
+- 🏆 **Hedron** — Hedera Africa Hackathon Top 3 (AI & DePIN), Hedera-native SDK for agentic commerce
+- 🦀 **RektOff** Rust Security Bootcamp
+- 🦄 **Uniswap Hook Incubator** Cohort 8
+- ☀️ Solana Developer Certification
 
 ## 🔥 Key Features
 
@@ -23,21 +30,23 @@ I'm Ihab Heb, a visionary technologist with deep expertise in blockchain develop
 
 ## 💻 Technical Expertise
 
-### Blockchain
+### Blockchain & Protocol
 
-- Smart Contracts Development & Security
-- Web3 & DeFi
-- Solidity, Teal, Cairo
-- EVM, Algorand, Starknet, Cosmos IBC, Solana
-- NFTs, DAOs, RWA
+- Smart contracts, Solidity, EVM, Hedera / HCS, Solana, Uniswap v4 Hooks, Chainlink
+- ZK / proof systems, x402, A2A / MCP
+- Cairo / Starknet, Cosmos IBC, Rust
 
-### Software Development
+### Software & Full-Stack
 
-- Full Stack Web Development
-- TypeScript, Node.js, React, Next.js
-- REST APIs, GraphQL
-- MongoDB, Supabase
-- Docker, Vercel, CI/CD, AWS
+- TypeScript, React, Next.js, Node.js
+- TanStack Router, OpenAPI SDKs, Auth / Authentik
+- REST/GraphQL, MongoDB, Supabase, Docker, Vercel, AWS
+
+### AI Agents, Security & Research
+
+- AI agents, agentic workflows, LLM integration, RAG
+- Decentralized AI, decentralized compute, autonomous agents
+- Smart contract security, Rust security, protocol research
 
 ### AI & Research
 
