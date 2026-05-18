@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Glorian Labs",
     type: "Agentic Agency / Startup",
-    status: "Early Stage",
+    status: "Active R&D",
     description:
       "An early-stage agentic agency and AI \u00d7 Web3 startup building autonomous systems, verifiable coordination tools, and infrastructure experiments for the next machine-native economy.",
     link: "https://glorianlabs.com",
@@ -28,7 +28,7 @@ const projects = [
   {
     name: "Proof0G",
     type: "Founder-Led Prototype",
-    status: "Active R&D",
+    status: "Prototype",
     description:
       "An active experiment exploring proof networks, decentralized AI infrastructure, and verification primitives for autonomous systems.",
     link: "https://github.com/Hebx/proof0g",
@@ -64,16 +64,6 @@ const projects = [
     link: "https://github.com/Hebx/proof-of-verdict",
     tags: ["Verification", "Trust", "Proof Systems"],
     icon: "\u2696\ufe0f",
-  },
-  {
-    name: "Agentic Experiments",
-    type: "Personal R&D Bench",
-    status: "Active R&D",
-    description:
-      "A living stream of builds across autonomous agents, payment rails, DeFi infrastructure, Web3 security, and machine-native coordination.",
-    link: "https://github.com/Hebx",
-    tags: ["AI Agents", "Hackathons", "Protocol R&D"],
-    icon: "\ud83d\udee0\ufe0f",
   },
 ];
 

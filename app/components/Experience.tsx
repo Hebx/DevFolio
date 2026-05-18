@@ -5,30 +5,30 @@ import SectionBackground from "./SectionBackground";
 
 const experiences = [
   {
-    title: "Independent Web3 & AI Infrastructure Builder",
-    company: "Founder-Led R&D / Glorian Labs",
+    title: "Founder",
+    company: "Glorian Labs — Agentic Intelligence for the Next Economy",
     period: "2026 - Present",
     location: "Remote",
     description:
-      "Building public proof-of-work across AI agents, Web3 infrastructure, smart contracts, security research, and protocol-facing products through an early-stage agentic agency/startup.",
+      "Glorian Labs is an independent research lab exploring the intersection of AI agents and decentralized economies. We build open-source prototypes and tools that enable autonomous coordination, intelligent decision-making, and new economic primitives in Web3 environments.",
     highlights: [
-      "Building Glorian Labs as an early-stage agentic agency and AI × Web3 startup focused on autonomous systems, verifiable coordination, and protocol-facing infrastructure.",
-      "Developing Hedron, a Hedera-native SDK for agentic commerce and verifiable agent coordination.",
-      "Exploring proof networks, decentralized AI, agentic payments, security tooling, and machine-native coordination through active founder-led prototypes.",
+      "Researching and shipping the future of intelligent economies through open-source-first agentic systems R&D.",
+      "Building Hedron, a Hedera-native SDK for agentic commerce and verifiable agent coordination — recognized with a grant at the Hedera Africa Hackathon.",
+      "Driving research tracks across autonomous coordination, verifiable settlement, multi-agent systems, and security automation for decentralized AI.",
     ],
-    icon: "🧪",
+    icon: "🔮",
   },
   {
     title: "Full-Stack Engineer",
     company: "DataPhleet",
-    period: "Recent",
+    period: "2025 - Present",
     location: "Remote",
     description:
-      "Built full-stack product features across modern TypeScript, React, API integration, authentication, and AI-enabled platform workflows.",
+      "Full-stack engineering on AI-native enterprise platforms — building product surfaces across modern TypeScript, React, generated SDKs, authentication, and AI-enabled workflows.",
     highlights: [
-      "Worked with React, TanStack Router, generated OpenAPI SDKs, DTO mapping, and modern frontend architecture.",
-      "Integrated authentication and platform workflows using Authentik and backend API contracts.",
-      "Contributed to AI-enabled platform features involving Azure OpenAI proxy integration and deployment-aware engineering contexts.",
+      "Shipped React + TanStack Router product surfaces backed by generated OpenAPI SDKs and DTO-driven contracts.",
+      "Integrated platform authentication and access workflows via Authentik against backend API contracts.",
+      "Contributed to AI-enabled platform features including Azure OpenAI proxy integration and deployment-aware engineering contexts.",
     ],
     icon: "🧩",
   },
