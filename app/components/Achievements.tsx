@@ -53,11 +53,6 @@ const awards = [
 
 const certifications = [
   {
-    title: "Cyfrin Updraft — Smart Contract Auditing, Assembly, Security & DeFi",
-    organization: "Cyfrin Updraft",
-    icon: "🛡️",
-  },
-  {
     title: "RektOff Rust Security Bootcamp",
     organization: "RektOff",
     icon: "🦀",
@@ -68,8 +63,13 @@ const certifications = [
     icon: "🦄",
   },
   {
-    title: "Solana Developer Certification",
-    organization: "Solana Ecosystem",
+    title: "Cyfrin Updraft — Smart Contract Auditing, Assembly, Security & DeFi",
+    organization: "Cyfrin Updraft",
+    icon: "🛡️",
+  },
+  {
+    title: "School of Solana — Solana Developer Certification",
+    organization: "Ackee Blockchain Security",
     icon: "☀️",
   },
   {
