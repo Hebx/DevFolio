@@ -28,7 +28,7 @@ const experiences = [
     highlights: [
       "Shipped React + TanStack Router product surfaces backed by generated OpenAPI SDKs and DTO-driven contracts.",
       "Integrated platform authentication and access workflows via Authentik against backend API contracts.",
-      "Contributed to AI-enabled features including Azure OpenAI proxy integration for processing technical compliance documents and generating reports.",
+      "Contributed to AI-enabled features for processing technical compliance documents and generating regulatory reports.",
     ],
     icon: "🧩",
   },
