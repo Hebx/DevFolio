@@ -61,7 +61,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-gray-700 dark:text-gray-200 max-w-sm">
-             Welcome Anon to Web3 and the Cypherpunk Movement, Join us on this path that very few walk. Join us on the journey to secure the peoples internet. May we soar to new heights and have our name echoed through the decentralized web.
+             Welcome to the Cypher Agentic Era. Reclaim the people&apos;s internet, defend sovereignty, secure freedom, and manifest the decentralized age.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
