@@ -94,13 +94,13 @@ export default function About() {
 
             <div className="space-y-6 text-gray-700 dark:text-gray-200">
               <p>
-                I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Ihab — Hebx</span>. I architect agentic systems, ship smart contracts, and engineer the full stack around them. I move across protocols, runtimes, and security like one continuous surface.
+                I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Hebx (0xHeb)</span>. I architect agentic systems, ship smart contracts, and engineer the full stack around them. I move across protocols, runtimes, and security like one continuous surface.
               </p>
               <p>
                 A <span className="text-indigo-600 dark:text-indigo-400">futurist by instinct, an engineer by craft</span> — I translate the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon-winning builds, protocol research, audited smart contracts, and production-grade product surfaces.
               </p>
               <p>
-                Current proof-of-work lives in two places: full-stack engineering inside modern AI-enabled platforms, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup engineering <span className="text-purple-600 dark:text-purple-400">agentic intelligence for the next economy</span>: autonomous coordination, agentic commerce, and verifiable infrastructure across decentralized networks.
+Today, my proof-of-work runs on two tracks. By day, I ship full-stack engineering inside modern AI-enabled platforms. In parallel, I lead founder R&D at <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage AI agency and Web3 startup engineering <span className="text-purple-600 dark:text-purple-400">“agentic intelligence for the next economy”</span>: autonomous coordination, agentic commerce, and verifiable infrastructure across decentralized networks.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 italic">
                 Open to senior engineering, protocol, security research, grant, and AI × Web3 collaborations.
