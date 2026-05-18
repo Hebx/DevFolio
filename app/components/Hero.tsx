@@ -131,11 +131,11 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-Engineering <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">secure protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span>, and shaping the <span className="text-indigo-600 dark:text-indigo-400">decentralized intelligence</span> of the next economy.
+Engineering <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">secure protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> — shaping the <span className="text-indigo-600 dark:text-indigo-400">decentralized intelligence</span> of the next economy.
               </motion.p>
 
               <motion.div
-                className="flex flex-wrap gap-2 pt-2"
+                className="flex flex-nowrap gap-1.5 sm:gap-2 pt-2 overflow-x-auto"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45 }}
@@ -149,7 +149,7 @@ Engineering <span className="text-purple-600 dark:text-purple-400">autonomous ag
                 ].map((badge) => (
                   <span
                     key={badge}
-                    className="px-3 py-1 text-xs font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
+                    className="px-2 py-0.5 text-[10px] sm:text-[11px] font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
                   >
                     {badge}
                   </span>
