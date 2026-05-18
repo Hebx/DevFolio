@@ -24,7 +24,7 @@ const education = [
     location: "Casablanca, Morocco",
     description: "Comprehensive study of mathematical physics, quantum theory, and general relativity",
     highlights: [
-      "Independent Research on Conciousness and Entanglement at a Quantum Level",
+      "Independent Research on Consciousness and Entanglement at a Quantum Level",
       "Exploring the Esoteric knowledge of ancient civilizations and it's interconnectedness with the futuristic sciences"
     ],
     icon: "🏛️"
