@@ -70,9 +70,10 @@ export default function About() {
                 <Link href="#hero">
                   <Image
                     src="/Images/devcon7.jpg"
-                    alt="Hebx Devfolio"
+                    alt="Ihab Hormi (lordheb) at Devcon 7"
                     width={600}
                     height={700}
+                    sizes="(max-width: 1024px) 90vw, 500px"
                     className="object-cover transition duration-300 group-hover:scale-105 cursor-pointer"
                   />
                 </Link>

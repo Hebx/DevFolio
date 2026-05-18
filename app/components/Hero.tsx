@@ -135,7 +135,7 @@ Engineering <span className="text-purple-600 dark:text-purple-400">autonomous ag
               </motion.p>
 
               <motion.div
-                className="flex flex-nowrap gap-1.5 sm:gap-2 pt-2 overflow-x-auto"
+                className="flex flex-nowrap gap-1 sm:gap-1.5 pt-2"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45 }}
@@ -149,7 +149,7 @@ Engineering <span className="text-purple-600 dark:text-purple-400">autonomous ag
                 ].map((badge) => (
                   <span
                     key={badge}
-                    className="px-3 py-1 text-xs sm:text-sm font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
+                    className="px-2 py-0.5 text-[10px] sm:text-xs font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
                   >
                     {badge}
                   </span>
@@ -212,7 +212,7 @@ Engineering <span className="text-purple-600 dark:text-purple-400">autonomous ag
               <div className="relative w-full h-full rounded-2xl overflow-hidden bg-gray-100 dark:bg-gray-900">
                 <Image
                   src="/Images/Hero1.jpg"
-                  alt="Hebx Profile"
+                  alt="Ihab Hormi (lordheb) profile portrait"
                   fill
                   className="object-cover"
                   priority
