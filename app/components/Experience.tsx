@@ -47,15 +47,18 @@ const experiences = [
     icon: "🔗",
   },
   {
-    title: "QA Engineer",
+    title: "Blockchain QA & Smart Contract Auditor",
     company: "Exa Market",
     period: "02/2023 - 04/2023",
     location: "Remote",
-    description: "The most advanced NFT marketplace on Algorand, Empowering the future collectors of today",
+    description:
+      "NFT marketplace on Algorand — hardened the platform’s blockchain layer, marketplace product, and Teal smart contracts for production-grade reliability.",
     highlights: [
-      "Setting up Units Tests for the Blockchain router, Assets API, NFTs Collections syncers. Contribution in testing the Marketplace and auditing the Teal Smart Contracts.",
+      "Engineered test coverage across the blockchain router, Assets API, and NFT collection syncers — building the safety net for high-throughput on-chain operations.",
+      "Drove manual and automated QA across the marketplace product surface, surfacing edge-case bugs and optimization paths before production.",
+      "Audited the Teal smart contracts powering the marketplace — reviewing on-chain logic for security, correctness, and exploit resistance.",
     ],
-    icon: "🔍"
+    icon: "🔍",
   },
   {
     title: "Web3 Developer",
