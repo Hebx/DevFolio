@@ -165,7 +165,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 dark:border-gray-800 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 dark:text-gray-400 text-sm">
-              © {new Date().getFullYear()} HEBX LTD. All rights reserved.
+              © {new Date().getFullYear()} Glorian Labs Ltd. All rights reserved.
             </p>
             <motion.a
               href="#"
