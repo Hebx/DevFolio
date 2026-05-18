@@ -165,23 +165,23 @@ export default function Achievements() {
           Certifications
         </motion.h2>
 
-        <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {certifications.map((cert, index) => (
             <motion.div
               key={cert.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
-              className="group p-4 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-purple-500 dark:hover:border-purple-500 transition-all duration-300"
+              transition={{ delay: index * 0.1 }}
+              className="group p-6 bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-purple-500 dark:hover:border-purple-500 transition-all duration-300"
             >
-              <div className="flex items-start gap-3">
-                <span className="text-xl shrink-0">{cert.icon}</span>
-                <div className="min-w-0">
-                  <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-xs leading-snug">
+              <div className="flex items-start gap-4">
+                <span className="text-2xl">{cert.icon}</span>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors text-sm">
                     {cert.title}
                   </h3>
-                  <p className="text-[10px] text-gray-700 dark:text-gray-300 mt-1 leading-tight">
+                  <p className="text-xs text-gray-700 dark:text-gray-300 mt-1">
                     {cert.organization}
                   </p>
                 </div>
