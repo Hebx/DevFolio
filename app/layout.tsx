@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://lordheb.com"),
   title: {
-    default: "Ihab Hormi (lordheb) — Agentic AI & Blockchain Engineer",
+    default: "Ihab Heb — Agentic AI & Blockchain Engineer",
     template: "%s — lordheb",
   },
   description:
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://lordheb.com",
     siteName: "lordheb",
-    title: "Ihab Hormi (lordheb) — Agentic AI & Blockchain Engineer",
+    title: "Ihab Heb — Agentic AI & Blockchain Engineer",
     description:
       "Building autonomous agents, secure smart contracts, and decentralized intelligence.",
     images: [
@@ -47,13 +47,13 @@ export const metadata: Metadata = {
         url: "/Images/preview.png",
         width: 1200,
         height: 630,
-        alt: "lordheb — Agentic AI & Blockchain Engineer",
+        alt: "Ihab Heb — Agentic AI & Blockchain Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ihab Hormi (lordheb) — Agentic AI & Blockchain Engineer",
+    title: "Ihab Heb — Agentic AI & Blockchain Engineer",
     description:
       "Building autonomous agents, secure smart contracts, and decentralized intelligence.",
     creator: "@lordheb",

@@ -131,7 +131,7 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-Engineering <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">secure protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> — shaping the <span className="text-indigo-600 dark:text-indigo-400">decentralized intelligence</span> of the next economy.
+Engineering <span className="text-purple-600 dark:text-purple-400">autonomous intelligence</span>, <span className="text-indigo-600 dark:text-indigo-400">secure protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> for the <span className="text-indigo-600 dark:text-indigo-400">agentic decentralized economy</span>.
               </motion.p>
 
               <motion.div
