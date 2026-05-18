@@ -100,7 +100,7 @@ export default function About() {
                 A <span className="text-indigo-600 dark:text-indigo-400">futurist by instinct, an engineer by craft</span> — I translate the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon-winning builds, protocol research, audited smart contracts, and production-grade product surfaces.
               </p>
               <p>
-                Current proof-of-work lives in two places: full-stack engineering inside modern AI-enabled platforms, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup building autonomous coordination, agentic commerce on Hedera, and verifiable infrastructure for the agentic economy.
+                Current proof-of-work lives in two places: full-stack engineering inside modern AI-enabled platforms, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup engineering <span className="text-purple-600 dark:text-purple-400">agentic intelligence for the next economy</span>: autonomous coordination, agentic commerce, and verifiable infrastructure across decentralized networks.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 italic">
                 Open to senior engineering, protocol, security research, grant, and AI × Web3 collaborations.
