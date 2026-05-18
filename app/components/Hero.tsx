@@ -149,7 +149,7 @@ Engineering <span className="text-purple-600 dark:text-purple-400">autonomous ag
                 ].map((badge) => (
                   <span
                     key={badge}
-                    className="px-2 py-0.5 text-[10px] sm:text-[11px] font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
+                    className="px-3 py-1 text-xs sm:text-sm font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
                   >
                     {badge}
                   </span>
