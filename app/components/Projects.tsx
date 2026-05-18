@@ -46,6 +46,16 @@ const projects = [
     icon: "\ud83c\udf0a",
   },
   {
+    name: "Ascent CLI",
+    type: "Developer Tooling Prototype",
+    status: "Prototype",
+    description:
+      "A developer-first CLI experiment streamlining agent deployment, monitoring, and lifecycle workflows across Aptos-based environments.",
+    link: "https://github.com/Hebx/ascent-cli",
+    tags: ["Aptos", "Agents", "DevTools"],
+    icon: "\u26a1",
+  },
+  {
     name: "Proof of Verdict",
     type: "Verification / Trust Prototype",
     status: "Prototype",
@@ -56,11 +66,11 @@ const projects = [
     icon: "\u2696\ufe0f",
   },
   {
-    name: "Agentic Prototypes",
+    name: "Agentic Experiments",
     type: "Personal R&D Bench",
-    status: "Active",
+    status: "Active R&D",
     description:
-      "A living stream of experiments across autonomous agents, payment rails, DeFi infrastructure, Web3 security, and machine-native coordination.",
+      "A living stream of builds across autonomous agents, payment rails, DeFi infrastructure, Web3 security, and machine-native coordination.",
     link: "https://github.com/Hebx",
     tags: ["AI Agents", "Hackathons", "Protocol R&D"],
     icon: "\ud83d\udee0\ufe0f",

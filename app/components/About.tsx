@@ -94,13 +94,16 @@ export default function About() {
 
             <div className="space-y-6 text-gray-700 dark:text-gray-200">
               <p>
-                I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Ihab / Hebx</span> — a blockchain engineer, AI agent infrastructure builder, and security-minded technologist exploring the frontier where decentralized systems meet intelligent automation.
+                I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Ihab — Hebx</span>. I architect agentic systems, ship smart contracts, and engineer the full stack around them. I move across protocols, runtimes, and security like one continuous surface.
               </p>
               <p>
-                I think like a futurist and build like an engineer: turning emerging ideas around agents, protocols, cryptographic coordination, and Web3 economies into working prototypes, research artifacts, and production-minded systems.
+                A <span className="text-indigo-600 dark:text-indigo-400">futurist by instinct, an engineer by craft</span> — I translate the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon-winning builds, protocol research, audited smart contracts, and production-grade product surfaces.
               </p>
               <p>
-                My work spans smart contracts, full-stack applications, autonomous agent workflows, protocol research, hackathon-winning builds, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup building systems for the agentic economy.
+                Current proof-of-work lives in two places: full-stack engineering inside modern AI-enabled platforms, and active founder-led R&D through <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> — an early-stage agentic agency and AI × Web3 startup building autonomous coordination, agentic commerce on Hedera, and verifiable infrastructure for the agentic economy.
+              </p>
+              <p className="text-sm text-gray-600 dark:text-gray-400 italic">
+                Open to senior engineering, protocol, security research, grant, and AI × Web3 collaborations.
               </p>
             </div>
 

@@ -117,27 +117,21 @@ export default function Hero() {
               </motion.h2>
               
               <motion.h2
-                className="text-4xl lg:text-6xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
+                className="text-3xl lg:text-5xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
               >
-               Blockchain Engineer & AI Agent Infrastructure Builder
+                Agentic Full-Stack & Blockchain Engineer
               </motion.h2>
 
               <motion.p
-                className="text-xl leading-relaxed text-gray-700 dark:text-gray-200 max-w-2xl tracking-wide"
+                className="text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-200 max-w-xl"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                Visionary technologist and protocol-minded builder working at the intersection of
-                <span className="text-purple-600 dark:text-purple-400"> blockchain </span>,
-                <span className="text-indigo-600 dark:text-indigo-400"> AI agents </span>,
-                security research, and decentralized infrastructure. I design and ship systems for
-                <span className="text-indigo-600 dark:text-indigo-400"> autonomous coordination </span>,
-                intelligent automation, and the next wave of
-                <span className="text-purple-600 dark:text-purple-400"> machine-native economic networks</span>.
+                I build at the frontier where <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> become real software — from smart contracts to agentic infrastructure for the machine-native economy.
               </motion.p>
 
               <motion.div
@@ -179,18 +173,6 @@ export default function Hero() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                   </svg>
                 </motion.button>
-
-                <motion.a
-                  href="mailto:Ihab.Hormi@hotmail.com"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center gap-2 px-6 py-3 rounded-full border border-purple-500/30 text-purple-600 dark:text-purple-400 hover:text-purple-500 dark:hover:text-purple-300 hover:border-purple-500/60 transition-all duration-300"
-                >
-                  <span>Contact Me</span>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </motion.a>
 
                 <motion.a
                   href="https://beige-disgusted-swordfish-225.mypinata.cloud/ipfs/bafybeif2exmukmax6ju6uttf4hultx4ftejc2rhqq7p4zxua4ygveqjer4"

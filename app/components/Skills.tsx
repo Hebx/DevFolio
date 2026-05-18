@@ -5,8 +5,8 @@ import SectionBackground from "./SectionBackground";
 
 const skillCategories = [
   {
-    title: "Blockchain & Protocol",
-    skills: ["Smart Contracts", "Solidity", "EVM", "Hedera / HCS", "Solana", "Uniswap v4 Hooks", "Chainlink", "Cairo / Starknet", "Cosmos IBC", "Rust", "zk-Rollups", "ZK / Proof Systems", "x402", "A2A / MCP", "DeFi", "NFTs", "DAOs", "RWA"],
+    title: "Blockchain & Protocols",
+    skills: ["Solidity", "Smart Contracts", "EVM", "Hedera / HCS", "Solana", "Uniswap v4 Hooks", "Chainlink", "Cairo / Starknet", "Cosmos IBC", "Rust", "Huff", "Assembly", "x402", "A2A / MCP", "DeFi", "NFTs", "DAOs", "RWA"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -14,8 +14,8 @@ const skillCategories = [
     ),
   },
   {
-    title: "Software & Full-Stack",
-    skills: ["TypeScript", "Node.js", "React", "Next.js", "TanStack Router", "OpenAPI SDKs", "REST APIs", "GraphQL", "Auth / Authentik", "MongoDB", "Supabase", "Docker", "Vercel", "CI/CD", "AWS", "TEE", "Tailwind CSS", "shadcn/ui", "C"],
+    title: "Full-Stack Web",
+    skills: ["TypeScript", "React", "Next.js", "Node.js", "TanStack Router", "OpenAPI SDKs", "REST APIs", "GraphQL", "Auth / Authentik", "MongoDB", "Supabase", "Docker", "Vercel", "CI/CD", "AWS", "Tailwind CSS", "shadcn/ui"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
@@ -23,11 +23,20 @@ const skillCategories = [
     ),
   },
   {
-    title: "AI Agents, Security & Research",
-    skills: ["AI Agents", "Agentic Workflows", "Agentic Frameworks", "LLM Integration", "RAG", "Autonomous Agents", "AI Inference", "Azure OpenAI Integration", "Decentralized AI", "Decentralized Computing [GPU]", "Decentralized Infrastructure [Nodes]", "Security Research", "Rust Security", "Smart Contract Security", "Protocol Research"],
+    title: "Agentic AI",
+    skills: ["AI Agents", "Agentic Workflows", "Agentic Frameworks", "Autonomous Agents", "LLM Integration", "RAG", "AI Inference", "Azure OpenAI", "Decentralized AI", "Decentralized Compute (GPU)", "Decentralized Infrastructure (Nodes)", "Machine-Native Coordination"],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+      </svg>
+    ),
+  },
+  {
+    title: "Security Research",
+    skills: ["Smart Contract Auditing", "Smart Contract Security", "Rust Security", "Protocol Research", "ZK / Proof Systems", "zk-Rollups", "Fuzzing", "Echidna", "DeFi Security", "TEE", "Cryptographic Coordination"],
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
       </svg>
     ),
   },
@@ -56,7 +65,7 @@ export default function Skills() {
         </motion.p>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
         {skillCategories.map((category, categoryIndex) => (
           <motion.div
             key={category.title}
