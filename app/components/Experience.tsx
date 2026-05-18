@@ -33,14 +33,16 @@ const experiences = [
     icon: "🧩",
   },
   {
-    title: "Full-Stack & Blockchain Engineer",
+    title: "Building Launch.Box Protocol — The Agentic Era of Decentralized Compute",
     company: "Capture Alpha",
     period: "11/2022 - Present",
     location: "Remote",
     description:
-      "Full-stack and blockchain engineering across infrastructure, validator services, and AI-native compute products.",
+      "Launch.Box is a decentralized computing paradigm where autonomous AI agents orchestrate GPU resource allocation and optimization — a marketplace where agents automatically discover, price, and allocate resources, generating compound yields through sophisticated bidding strategies. Includes an AI inference market for cost-effective LLM execution and a node deployment platform, addressing the fragmentation of the thriving compute market.",
     highlights: [
-      "Founding engineer on Launch.box — a decentralized computing paradigm where autonomous AI agents orchestrate GPU compute allocation, optimization, AI inference, and node deployment monitoring.",
+      "Architecting the agentic GPU marketplace: autonomous discovery, dynamic pricing, and allocation strategies that compound yield across decentralized compute supply.",
+      "Building the AI inference market layer for cost-effective LLM execution across the network.",
+      "Shipping the node deployment platform that turns fragmented compute supply into a unified, agent-orchestrated substrate.",
     ],
     icon: "🔗",
   },
