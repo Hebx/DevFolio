@@ -6,11 +6,11 @@ import SectionBackground from "./SectionBackground";
 const experiences = [
   {
     title: "Founder",
-    company: "Glorian Labs — Agentic Intelligence for the Next Economy",
+    company: "Glorian Labs",
     period: "2026 - Present",
     location: "Remote",
     description:
-      "Glorian Labs is an independent research lab exploring the intersection of AI agents and decentralized economies. We build open-source prototypes and tools that enable autonomous coordination, intelligent decision-making, and new economic primitives in Web3 environments.",
+      "Agentic Intelligence for the Next Economy — an independent research lab exploring the intersection of AI agents and decentralized economies. We build open-source prototypes and tools that enable autonomous coordination, intelligent decision-making, and new economic primitives in Web3 environments.",
     highlights: [
       "Researching and shipping the future of intelligent economies through open-source-first agentic systems R&D.",
       "Building Hedron, a Hedera-native SDK for agentic commerce and verifiable agent coordination — recognized with a grant at the Hedera Africa Hackathon.",
