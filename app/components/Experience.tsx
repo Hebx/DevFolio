@@ -19,16 +19,16 @@ const experiences = [
     icon: "🔮",
   },
   {
-    title: "Full-Stack Engineer",
+    title: "Full-Stack Engineer (Contract)",
     company: "DataPhleet",
-    period: "2025 - Present",
+    period: "Nov 2025 - Jan 2026 · 3 mos",
     location: "Remote",
     description:
-      "Full-stack engineering on AI-native enterprise platforms — building product surfaces across modern TypeScript, React, generated SDKs, authentication, and AI-enabled workflows.",
+      "DataPhleet — NERC compliance management platform for electric utilities. Manages device inventory, tracks compliance standards (PRC-005, PRC-019, …), processes technical documents with AI, and generates compliance reports.",
     highlights: [
       "Shipped React + TanStack Router product surfaces backed by generated OpenAPI SDKs and DTO-driven contracts.",
       "Integrated platform authentication and access workflows via Authentik against backend API contracts.",
-      "Contributed to AI-enabled platform features including Azure OpenAI proxy integration and deployment-aware engineering contexts.",
+      "Contributed to AI-enabled features including Azure OpenAI proxy integration for processing technical compliance documents and generating reports.",
     ],
     icon: "🧩",
   },
