@@ -122,7 +122,7 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
               >
-                Agentic Full-Stack & Blockchain Engineer
+                Agentic AI & Blockchain Engineer
               </motion.h2>
 
               <motion.p
@@ -131,7 +131,7 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                I build at the frontier where <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> become real software — from smart contracts to agentic infrastructure for the machine-native economy.
+Engineering <span className="text-purple-600 dark:text-purple-400">autonomous agents</span>, <span className="text-indigo-600 dark:text-indigo-400">protocols</span>, and <span className="text-purple-600 dark:text-purple-400">verifiable systems</span> that turn the next economy into shipped software.
               </motion.p>
 
               <motion.div
