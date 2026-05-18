@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { BackgroundGradient } from "./Hero";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const socialLinks = [
@@ -19,9 +20,9 @@ const socialLinks = [
     icon: <FaGithub className="w-5 h-5" />,
   },
   {
-    name: "Twitter",
+    name: "X",
     url: "https://x.com/lordheb",
-    icon: <FaTwitter className="w-5 h-5" />,
+    icon: <FaXTwitter className="w-5 h-5" />,
   },
   {
     name: "Email",

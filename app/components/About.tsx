@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import SectionBackground from "./SectionBackground";
-import { FaGithub, FaLinkedin, FaTwitter, FaTelegram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
 
@@ -24,9 +24,9 @@ const socialLinks = [
     icon: <FaLinkedin className="w-5 h-5" />,
   },
   {
-    name: "Twitter",
+    name: "X",
     url: "https://x.com/lordheb",
-    icon: <FaTwitter className="w-5 h-5" />,
+    icon: <FaXTwitter className="w-5 h-5" />,
   },
   {
     name: "Farcaster",
