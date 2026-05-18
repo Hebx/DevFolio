@@ -103,7 +103,7 @@ export default function About() {
 Today, my proof-of-work runs on two tracks. By day, I ship full-stack modern AI-enabled platforms. In parallel, I lead <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> as the founder — an early-stage AI agency & Web3 startup engineering the <span className="text-purple-600 dark:text-purple-400">autonomous coordination, agentic commerce, and verifiable infrastructure</span> across decentralized networks.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 italic">
-                Open to senior engineering, protocol, security research, grant, and AI × Web3 collaborations.
+                Open to senior engineering, protocol research, security audits, Web3 grants, and agentic AI collaborations.
               </p>
             </div>
 
