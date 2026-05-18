@@ -19,7 +19,7 @@ const experiences = [
     icon: "🔮",
   },
   {
-    title: "Full-Stack Engineer (Contract)",
+    title: "Full-Stack Engineer",
     company: "DataPhleet",
     period: "Nov 2025 - Jan 2026 · 3 mos",
     location: "Remote",
@@ -33,21 +33,21 @@ const experiences = [
     icon: "🧩",
   },
   {
-    title: "Building Launch.Box Protocol — The Agentic Era of Decentralized Compute",
+    title: "Full-Stack Engineer",
     company: "Capture Alpha",
     period: "11/2022 - Present",
     location: "Remote",
     description:
-      "Launch.Box is a decentralized computing paradigm where autonomous AI agents orchestrate GPU resource allocation and optimization — a marketplace where agents automatically discover, price, and allocate resources, generating compound yields through sophisticated bidding strategies. Includes an AI inference market for cost-effective LLM execution and a node deployment platform, addressing the fragmentation of the thriving compute market.",
+      "Building Launch.Box Protocol — the agentic era of decentralized compute. An autonomous marketplace where AI agents discover, price, and allocate GPU resources, paired with an AI inference layer and node deployment platform that unify fragmented compute supply.",
     highlights: [
-      "Architecting the agentic GPU marketplace: autonomous discovery, dynamic pricing, and allocation strategies that compound yield across decentralized compute supply.",
+      "Architecting the agentic GPU marketplace: autonomous discovery, dynamic pricing, and yield-compounding allocation strategies.",
       "Building the AI inference market layer for cost-effective LLM execution across the network.",
-      "Shipping the node deployment platform that turns fragmented compute supply into a unified, agent-orchestrated substrate.",
+      "Shipping the node deployment platform that turns fragmented compute into an agent-orchestrated substrate.",
     ],
     icon: "🔗",
   },
   {
-    title: "Blockchain QA & Smart Contract Auditor",
+    title: "Blockchain QA Engineer",
     company: "Exa Market",
     period: "02/2023 - 04/2023",
     location: "Remote",
