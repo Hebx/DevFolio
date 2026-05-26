@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       "Building autonomous agents, secure smart contracts, and decentralized intelligence.",
     images: [
       {
-        url: "/Images/preview.png",
+        url: "/Images/preview-v2.png",
         width: 1200,
         height: 630,
         alt: "Ihab Heb — Agentic AI & Blockchain Engineer",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     description:
       "Building autonomous agents, secure smart contracts, and decentralized intelligence.",
     creator: "@lordheb",
-    images: ["/Images/preview.png"],
+    images: ["/Images/preview-v2.png"],
   },
   robots: {
     index: true,
@@ -100,7 +100,7 @@ export default function RootLayout({
               name: "Ihab Hormi",
               alternateName: ["lordheb", "0xHeb", "Hebx"],
               url: "https://lordheb.com",
-              image: "https://lordheb.com/Images/preview.png",
+              image: "https://lordheb.com/Images/preview-v2.png",
               jobTitle: "Agentic AI & Blockchain Engineer",
               sameAs: [
                 "https://github.com/Hebx",
