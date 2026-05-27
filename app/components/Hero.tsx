@@ -76,8 +76,8 @@ export default function Hero() {
       {/* Use the extracted background component */}
       <BackgroundGradient />
       
-      <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-12">
           {/* Text content */}
           <div className="lg:w-1/2">
             <motion.div
@@ -90,7 +90,7 @@ export default function Hero() {
                 onClick={() => {
                   document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="text-5xl lg:text-7xl font-bold text-pink-500 dark:text-pink-400 bg-clip-text text-transparent bg-gradient-to-br from-purple-600 via-pink-500 to-indigo-600 dark:from-purple-400 dark:via-pink-400 dark:to-indigo-400 cursor-pointer"
+                className="text-4xl sm:text-5xl lg:text-7xl font-bold text-pink-500 dark:text-pink-400 bg-clip-text text-transparent bg-gradient-to-br from-purple-600 via-pink-500 to-indigo-600 dark:from-purple-400 dark:via-pink-400 dark:to-indigo-400 cursor-pointer"
                 initial={{ opacity: 0, scale: 0.5, y: 50 }}
                 animate={{ 
                   opacity: 1, 
@@ -117,7 +117,7 @@ export default function Hero() {
               </motion.h2>
               
               <motion.h2
-                className="text-3xl lg:text-5xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
+                className="text-2xl sm:text-3xl lg:text-5xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
@@ -135,7 +135,7 @@ Building <span className="text-purple-600 dark:text-purple-400">autonomous intel
               </motion.p>
 
               <motion.div
-                className="flex flex-nowrap gap-1 sm:gap-1.5 pt-2"
+                className="flex flex-wrap gap-1.5 sm:gap-2 pt-2"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.45 }}
@@ -149,7 +149,7 @@ Building <span className="text-purple-600 dark:text-purple-400">autonomous intel
                 ].map((badge) => (
                   <span
                     key={badge}
-                    className="px-2 py-0.5 text-[10px] sm:text-xs font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800 whitespace-nowrap"
+                    className="px-2.5 py-1 text-[11px] sm:text-xs font-medium rounded-full bg-purple-100/70 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800"
                   >
                     {badge}
                   </span>

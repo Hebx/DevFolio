@@ -92,7 +92,7 @@ const certifications = [
 export default function Achievements() {
   return (
     <SectionBackground id="achievements" className="py-20">
-      <div className="container max-w-7xl mx-auto px-6 lg:px-10">
+      <div>
         {/* Awards / Recognition */}
         <div className="mb-20">
           <motion.h2

@@ -54,7 +54,7 @@ const experiences = [
 export default function Experience() {
   return (
     <SectionBackground id="experience" className="py-24">
-      <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
+      <div>
         <div className="max-w-3xl mx-auto text-center mb-20">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -83,30 +83,30 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.15 }}
-              className="group relative p-8 bg-white dark:bg-gray-800 rounded-2xl
+              className="group relative p-5 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl
                        border border-gray-200 dark:border-gray-700 shadow-xl dark:shadow-none
                        hover:border-purple-500/50 dark:hover:border-purple-500/50 transition-all duration-300"
             >
-              <div className="flex flex-col lg:flex-row gap-8">
+              <div className="flex flex-col sm:flex-row gap-5 sm:gap-8">
                 <div className="flex-shrink-0">
                   <span className="flex items-center justify-center w-12 h-12 bg-purple-100 dark:bg-purple-900
                                  text-purple-600 dark:text-purple-300 rounded-xl text-2xl">
                     {exp.icon}
                   </span>
                 </div>
-                <div className="flex-grow">
-                  <div className="flex flex-col lg:flex-row lg:items-center gap-4 mb-4">
+                <div className="flex-grow min-w-0">
+                  <div className="flex flex-col gap-3 mb-4">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                       {exp.title}
                     </h3>
-                    <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300">
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-gray-600 dark:text-gray-300">
                       <span className="px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900
                                    text-purple-700 dark:text-purple-300">
                         {exp.company}
                       </span>
-                      <span className="dark:text-gray-400">•</span>
+                      <span className="hidden sm:inline dark:text-gray-400">•</span>
                       <span>{exp.period}</span>
-                      <span className="dark:text-gray-400">•</span>
+                      <span className="hidden sm:inline dark:text-gray-400">•</span>
                       <span>{exp.location}</span>
                     </div>
                   </div>

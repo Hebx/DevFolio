@@ -20,7 +20,7 @@ export default function SectionBackground({
       className={`relative bg-white dark:bg-black overflow-hidden ${className}`}
     >
       <BackgroundGradient />
-      <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         {children}
       </div>
     </section>

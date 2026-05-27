@@ -32,8 +32,7 @@ const socialLinks = [
 export default function About() {
   return (
     <SectionBackground id="about" className="py-24">
-      <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
-        <div className="flex flex-col lg:flex-row items-start gap-16">
+      <div className="flex flex-col lg:flex-row items-start gap-10 lg:gap-16">
           {/* Image Section */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
@@ -91,7 +90,7 @@ export default function About() {
               <h3 className="text-lg font-semibold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 mb-4">
                 Connect With Me
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
                 {socialLinks.map((link) => (
                   <Link
                     key={link.name}
@@ -143,7 +142,6 @@ export default function About() {
             </div>
           </motion.div>
         </div>
-      </div>
     </SectionBackground>
   );
 }
