@@ -9,11 +9,10 @@ const education = [
     degree: "Software Engineering",
     period: "2021 - 2023",
     location: "Abu Dhabi, UAE",
-    description: "Peer-to-peer learning program focused on project-based software development",
+    description: "Project-based, peer-to-peer software engineering. No lectures, no grades — you ship or you don’t.",
     highlights: [
-      "Selected among top performers with a proven track record of success, awards and certificates",
-      "Secretary and Treasurer of the Student Council",
-      "Founder of the 42 Blockchain Alliance DAO"
+      "Secretary and Treasurer of the Student Council & Founder of the 42 Blockchain Alliance DAO",
+      "Selected among top performers with a proven track record of success, awards and certificates"
     ],
     icon: "🎓"
   },
@@ -22,10 +21,10 @@ const education = [
     degree: "Theoretical Physics",
     period: "2013 - 2017",
     location: "Casablanca, Morocco",
-    description: "Comprehensive study of mathematical physics, quantum theory, and general relativity",
+    description: "Mathematical physics, quantum theory, and general relativity.",
     highlights: [
       "Independent Research on Consciousness and Entanglement at a Quantum Level",
-      "Exploring the Esoteric knowledge of ancient civilizations and it's interconnectedness with the futuristic sciences"
+      "Exploring the esoteric knowledge of ancient civilizations and its interconnectedness with futuristic sciences."
     ],
     icon: "🏛️"
   }
@@ -51,7 +50,7 @@ export default function Education() {
             transition={{ delay: 0.2 }}
             className="mt-4 text-lg text-gray-700 dark:text-gray-200"
           >
-            Academic journey and learning experiences
+            Academic journey and learning experiences.
           </motion.p>
         </div>
 
