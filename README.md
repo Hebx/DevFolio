@@ -163,7 +163,7 @@ Core Web Vitals: **FCP 0.9 s · LCP 2.9 s · TBT 120 ms · CLS 0**
 
 - **Email** — [Ihab.Hormi@hotmail.com](mailto:Ihab.Hormi@hotmail.com)
 - **Telegram** — [@lord_heb](https://t.me/lord_heb)
-- **Schedule** — [calendly.com/ihab-heb/collab](https://calendly.com/ihab-heb/collab)
+- **Schedule** — [cal.com/ihab-heb](https://cal.com/ihab-heb)
 - **Location** — Casablanca, Morocco · remote-friendly worldwide
 
 ## 🔗 Identity Graph

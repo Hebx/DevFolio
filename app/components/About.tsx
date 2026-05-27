@@ -115,7 +115,7 @@ export default function About() {
                     Want to discuss a collaboration? Let&apos;s schedule a meeting.
                   </p>
                   <Link
-                    href="https://calendly.com/ihab-heb/collab"
+                    href="https://cal.com/ihab-heb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r 

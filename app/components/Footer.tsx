@@ -146,7 +146,7 @@ export default function Footer() {
               Want to discuss a project or collaboration opportunity?
             </p>
             <Link
-              href="https://calendly.com/ihab-heb/collab"
+              href="https://cal.com/ihab-heb"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium hover:from-purple-700 hover:to-indigo-700 transition-all duration-300 dark:text-white-400"
