@@ -141,7 +141,7 @@ Building <span className="text-purple-600 dark:text-purple-400">autonomous intel
                 transition={{ delay: 0.45 }}
               >
                 {[
-                  "Web3 Infrastructure",
+                  "Web3 Infra",
                   "AI Agents",
                   "Smart Contracts",
                   "Security Research",
