@@ -168,14 +168,14 @@ Building <span className="text-purple-600 dark:text-purple-400">autonomous intel
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium transition-all duration-300 dark:text-white-400"
                 >
-                  <span>Active Builds & Research</span>
+                  <span>Proof of Work</span>
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                   </svg>
                 </motion.button>
 
                 <motion.a
-                  href="https://beige-disgusted-swordfish-225.mypinata.cloud/ipfs/bafybeif2exmukmax6ju6uttf4hultx4ftejc2rhqq7p4zxua4ygveqjer4"
+                  href="https://beige-disgusted-swordfish-225.mypinata.cloud/ipfs/bafybeib5yulh5u4j6nx23u6ehc6ynrjqzxzf43swc56vinz4bguv23m4zq"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}

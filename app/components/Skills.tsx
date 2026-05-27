@@ -52,7 +52,7 @@ export default function Skills() {
           viewport={{ once: true }}
           className="text-3xl lg:text-4xl font-bold text-purple-600 dark:text-purple-400 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400"
         >
-          Technical Expertise
+          Skills
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -61,7 +61,7 @@ export default function Skills() {
           transition={{ delay: 0.2 }}
           className="mt-4 text-lg text-gray-700 dark:text-gray-200"
         >
-          A showcase of my technical skills and proficiency across different domains
+          The toolkit I build and ship with across the agentic, on-chain, and security stack.
         </motion.p>
       </div>
 

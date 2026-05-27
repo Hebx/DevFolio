@@ -7,17 +7,6 @@ import SectionBackground from "./SectionBackground";
 import { FaGithub, FaLinkedin, FaTelegram, FaXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
-
-  {
-    name: "Telegram",
-    url: "https://t.me/lord_heb",
-    icon: <FaTelegram className="w-5 h-5" />,
-  },
-  {
-    name: "GitHub",
-    url: "https://github.com/Hebx",
-    icon: <FaGithub className="w-5 h-5" />,
-  },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/ihab-hormi-552b63219/",
@@ -29,26 +18,15 @@ const socialLinks = [
     icon: <FaXTwitter className="w-5 h-5" />,
   },
   {
-    name: "Farcaster",
-    url: "https://warpcast.com/lordheb.eth",
-    icon: "🔮",
+    name: "Telegram",
+    url: "https://t.me/lord_heb",
+    icon: <FaTelegram className="w-5 h-5" />,
   },
   {
-    name: "Lens",
-    url: "https://hey.xyz/u/@lordheb",
-    icon: "🌱",
+    name: "GitHub",
+    url: "https://github.com/Hebx",
+    icon: <FaGithub className="w-5 h-5" />,
   },
-  {
-    name: "Basename",
-    url: "https://www.base.org/name/lordheb",
-    icon: "💎",
-  },
-  {
-    name: "Talent",
-    url: "https://app.talentprotocol.com/profile/2912579",
-    icon: "🥷🏻",
-  }
-
 ];
 
 export default function About() {
@@ -98,13 +76,13 @@ export default function About() {
                 I’m <span className="font-semibold text-purple-600 dark:text-purple-400">Hebx (0xHeb)</span>. I architect agentic systems, ship smart contracts, and engineer the full stack around them. I move across protocols, runtimes, and security like one continuous surface.
               </p>
               <p>
-                A <span className="text-indigo-600 dark:text-indigo-400">futurist by instinct, a visionary by craft</span> — I translate the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon-winning builds, protocol research, secure smart contracts, and production-grade product surfaces.
+                A <span className="text-indigo-600 dark:text-indigo-400">futurist by instinct, a visionary by craft</span> — I translate the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon &amp; grants winning builds, protocol research &amp; development, secure smart contracts, and production-grade products.
               </p>
               <p>
-Today, my proof-of-work runs on two tracks. By day, I ship full-stack modern AI-enabled platforms. In parallel, I lead <span className="font-semibold text-indigo-600 dark:text-indigo-400">Glorian Labs</span> as the founder — an early-stage AI agency & Web3 startup engineering the <span className="text-purple-600 dark:text-purple-400">autonomous coordination, agentic commerce, and verifiable infrastructure</span> across decentralized networks.
+                Today, my proof-of-work runs on two tracks. By day, I ship full-stack modern AI-enabled platforms. In parallel, I lead <a href="https://glorianlabs.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-indigo-600 dark:text-indigo-400 underline decoration-indigo-500/40 underline-offset-4 hover:decoration-indigo-500 transition-colors">Glorian Labs</a> as the founder — an early-stage AI agency &amp; Web3 startup engineering the <span className="text-purple-600 dark:text-purple-400">autonomous coordination, agentic commerce, and verifiable infrastructure</span> across decentralized networks.
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 italic">
-                Open to senior engineering, protocol research, security audits, Web3 grants, and agentic AI collaborations.
+                Open to senior engineering roles, protocol R&amp;D, security audits, Web3 grants, and agentic AI collaborations.
               </p>
             </div>
 

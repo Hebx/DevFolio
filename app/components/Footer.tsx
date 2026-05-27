@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
 import { BackgroundGradient } from "./Hero";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
@@ -25,9 +25,9 @@ const socialLinks = [
     icon: <FaXTwitter className="w-5 h-5" />,
   },
   {
-    name: "Email",
-    url: "mailto:Ihab.Hormi@hotmail.com",
-    icon: <MdEmail className="w-5 h-5" />,
+    name: "Telegram",
+    url: "https://t.me/lord_heb",
+    icon: <FaTelegram className="w-5 h-5" />,
   },
 ];
 
@@ -64,34 +64,6 @@ export default function Footer() {
             <p className="text-gray-700 dark:text-gray-200 max-w-sm">
              Welcome to the Cypher Agentic Era. Reclaim the people&apos;s internet, defend sovereignty, secure freedom, and manifest the decentralized age.
             </p>
-            <div className="flex gap-4">
-              {socialLinks.map((social, index) => (
-                <motion.a
-                  key={social.name}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onMouseEnter={() => setHoverIndex(index)}
-                  onMouseLeave={() => setHoverIndex(null)}
-                  whileHover={{ y: -5 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/50 transition-all duration-300"
-                  aria-label={social.name}
-                >
-                  {social.icon}
-                  {hoverIndex === index && (
-                    <motion.span
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: 10 }}
-                      className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-2 py-1 rounded"
-                    >
-                      {social.name}
-                    </motion.span>
-                  )}
-                </motion.a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -123,9 +95,7 @@ export default function Footer() {
             </h3>
             <div className="space-y-4">
               <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
-                <svg className="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+                <MdEmail className="w-5 h-5 text-purple-600 dark:text-purple-400" />
                 Ihab.Hormi@hotmail.com
               </p>
               <p className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
@@ -135,6 +105,34 @@ export default function Footer() {
                 </svg>
                 Casablanca, Morocco
               </p>
+              <div className="flex gap-4 pt-2">
+                {socialLinks.map((social, index) => (
+                  <motion.a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onMouseEnter={() => setHoverIndex(index)}
+                    onMouseLeave={() => setHoverIndex(null)}
+                    whileHover={{ y: -5 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="relative p-3 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/50 transition-all duration-300"
+                    aria-label={social.name}
+                  >
+                    {social.icon}
+                    {hoverIndex === index && (
+                      <motion.span
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs whitespace-nowrap bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 px-2 py-1 rounded"
+                      >
+                        {social.name}
+                      </motion.span>
+                    )}
+                  </motion.a>
+                ))}
+              </div>
             </div>
           </div>
 
