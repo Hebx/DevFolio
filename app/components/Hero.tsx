@@ -72,7 +72,7 @@ export default function Hero() {
   }, [controls, mousePosition]);
 
   return (
-    <section className="relative min-h-screen flex items-center bg-white dark:bg-black overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 md:pt-0 bg-white dark:bg-black overflow-hidden">
       {/* Use the extracted background component */}
       <BackgroundGradient />
       
