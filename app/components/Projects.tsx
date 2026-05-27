@@ -95,7 +95,7 @@ const projects = [
 export default function Projects() {
   return (
     <SectionBackground id="projects" className="py-24">
-      <div className="container max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+      <div>
         <div className="max-w-3xl mx-auto text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

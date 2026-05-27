@@ -45,7 +45,8 @@ const skillCategories = [
 export default function Skills() {
   return (
     <SectionBackground id="skills" className="py-20">
-      <div className="max-w-3xl mx-auto text-center mb-20">
+      <div>
+        <div className="max-w-3xl mx-auto text-center mb-16">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -65,7 +66,7 @@ export default function Skills() {
         </motion.p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+      <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 xl:grid-cols-4">
         {skillCategories.map((category, categoryIndex) => (
           <motion.div
             key={category.title}
@@ -73,7 +74,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: categoryIndex * 0.2 }}
-            className="group relative p-8 bg-white dark:bg-gray-800 rounded-2xl 
+            className="group relative p-6 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl 
                        border border-gray-200 dark:border-gray-700 shadow-xl dark:shadow-none 
                        hover:border-purple-500/50 transition-all duration-300"
           >
@@ -108,6 +109,7 @@ export default function Skills() {
             </div>
           </motion.div>
         ))}
+        </div>
       </div>
     </SectionBackground>
   );

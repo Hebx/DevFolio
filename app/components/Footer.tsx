@@ -48,9 +48,9 @@ export default function Footer() {
       <BackgroundGradient />
       
       {/* Content */}
-      <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
+      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-12 py-12 sm:py-16">
           {/* Brand Section */}
           <div className="space-y-6">
             <Link href="#" className="inline-block">
