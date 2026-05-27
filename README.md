@@ -1,16 +1,18 @@
 # lordheb.com — Ihab Hormi (Hebx / 0xHeb)
 
-> Agentic AI & Blockchain Engineer. Building autonomous agents, secure smart contracts, and decentralized intelligence.
+> Agentic AI & Blockchain Engineer. Building autonomous agents, agentic commerce protocols, and verifiable on-chain infrastructure.
 
 <p align="center">
   <a href="https://lordheb.com"><strong>🌐 lordheb.com</strong></a> ·
+  <a href="https://glorianlabs.com">Glorian Labs</a> ·
   <a href="https://github.com/Hebx">GitHub</a> ·
   <a href="https://x.com/lordheb">X</a> ·
   <a href="https://www.linkedin.com/in/ihab-hormi-552b63219/">LinkedIn</a> ·
+  <a href="https://t.me/lord_heb">Telegram</a> ·
   <a href="https://www.base.org/name/lordheb">lordheb.base.eth</a>
 </p>
 
-![Portfolio Preview](./public/Images/preview.png)
+![Portfolio Preview](./public/Images/preview-v2.png)
 
 <p align="center">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
@@ -26,31 +28,48 @@
 
 ## 🚀 About
 
-Personal portfolio of **Ihab Hormi** — also known as **lordheb**, **Hebx**, **0xHeb**.
+Personal portfolio (devfolio, not a CV) of **Ihab Hormi** — also known as **lordheb**, **Hebx**, **0xHeb**.
 
-Visionary technologist operating across agentic AI, smart contract security, full‑stack engineering, and protocol R&D. Founder of **Glorian Labs** (early‑stage AI × Web3 agency), full‑stack engineer at **DataPhleet**, and contributor across decentralized AI and DePIN ecosystems.
+A futurist by instinct, a visionary by craft — translating the next decade of decentralized AI, verifiable coordination, and machine-native economies into working systems: hackathon & grants winning builds, protocol R&D, secure smart contracts, and production-grade products.
 
-**Currently open to:** senior engineering roles, protocol research, smart contract audits, Web3 grants, and agentic AI collaborations.
+Founder of **[Glorian Labs](https://glorianlabs.com)** — an early-stage AI agency & Web3 startup engineering autonomous coordination, agentic commerce, and verifiable infrastructure across decentralized networks. Day job: shipping AI-native full-stack platforms.
 
-## 🔥 Recent Highlights
+**Currently open to:** senior engineering roles, protocol R&D, smart contract audits, Web3 grants, and agentic AI collaborations.
 
-- 🏆 **Hedron** — Hedera Africa Hackathon Top 3 (AI & DePIN), Hedera‑native SDK for agentic commerce
+## 🔥 Selected Recognition
+
+- 🏆 **Hedron** — Hedera Africa Hackathon Top 3 (AI & DePIN), 1,300+ submissions, $30K prize
+- 🏆 **Mode Network** AI Founders Incubation — Top 3
+- 🛡️ **CARE-X** · Trail of Bits Echidna — Top 7 (Secureum)
+- 🏆 **HackTheBox** Cysec Global CTF — Winner
+- 🌐 **EthGlobal** — SuperHack (Zora Best Use), ETHOnline & HackMoney pool prizes
+- 🎓 **Kernel Fellow** KB8 (Gitcoin)
 - 🦀 **RektOff** Rust Security Bootcamp graduate
-- 🦄 **Uniswap Hook Incubator** Cohort 8
-- ☀️ **Solana Developer** Certification (Ackee · School of Solana)
-- 🏆 Mode AI Founders Incubation Top 3
-- 🛡️ CARE‑X Trail of Bits Echidna — Top 7
-- 🏆 HackTheBox Global CTF Winner
+- 🦄 **Uniswap Hook Incubator** · Atrium Academy Cohort 8
+- 🎤 **Certificate of Contribution** as a guest speaker (UTAS Blockchain Event · University of Oman)
+
+## 🧪 Featured Builds (Proof of Work)
+
+| Project | What | Status |
+| --- | --- | --- |
+| **Hedron** | Hedera-native agentic commerce SDK — A2A, AP2, HCS-10, x402 | v0.2 · Alpha |
+| **AgentGuard** | Tether WDK middleware: deterministic policy + ed25519 receipts for any wallet | Beta · npm |
+| **HashTrail** | Plain-language Hedera tipping agent — HBAR + HTS NFT + HCS receipt | Live · Mainnet |
+| **LiquidMind** | AI-driven liquidity for Uniswap v4 · hook + Chainlink CRE | Research |
+| **Ascent CLI** | Aptos toolkit: x402 USDC + AAIS identity + AgentMesh | Beta · npm |
+| **Proof0G** | Portable Proof Pages for 0G AI apps · 0G Storage + Chain + Compute | Public · TS |
+| **Proof of Verdict** | Trustless AI judge for agent disputes · TEE-signed verdicts | Public · Solidity |
+| **TrustScore Oracle** | Hedera trust scores via Arkhia, paid per query (x402) | v0.1 · Testnet |
 
 ## 🧠 Technical Surface
 
-**Blockchain & Protocol** — Solidity · EVM · Hedera/HCS · Solana · Uniswap v4 Hooks · Chainlink · ZK proofs · x402 · A2A/MCP · Cairo/Starknet · Cosmos IBC · Rust
+**Blockchain & Protocols** — Solidity · Smart Contracts · EVM · Foundry · Hardhat · Hedera/HCS · Solana · Uniswap v4 Hooks · Chainlink · Cairo/Starknet · Cosmos IBC · Rust · Move/Aptos
 
-**Agentic AI & Research** — LLM integration · RAG · agentic frameworks · autonomous agents · decentralized AI · decentralized compute (GPU) · AI inference
+**Agentic AI** — Autonomous agents · A2A / AP2 / MCP · x402 · RAG · LLM integration · decentralized AI · DePIN compute · verifiable inference
 
-**Security** — Smart contract auditing · Rust security · offensive security · penetration testing · on‑chain analysis · OpSec
+**Security Research** — Smart contract auditing · Rust security · offensive security · fuzzing (Echidna) · on-chain analysis · OpSec
 
-**Full‑Stack** — TypeScript · React · Next.js · Node.js · TanStack · OpenAPI · Authentik · MongoDB · Supabase · Docker · Vercel · AWS
+**Full-Stack Web** — TypeScript · React · Next.js · Node.js · TanStack · OpenAPI · Authentik · MongoDB · Supabase · Docker · Vercel · AWS
 
 ## 🧱 Tech Stack (this site)
 
@@ -68,12 +87,12 @@ Visionary technologist operating across agentic AI, smart contract security, ful
 
 - 🌓 Dark / light mode with smooth transitions
 - 📱 Fully responsive across phone → desktop
-- 💫 Framer‑Motion entrance, scroll, and hover animations
+- 💫 Framer-Motion entrance, scroll, and hover animations
 - 🎨 Animated gradient backgrounds with reusable section primitives
-- 🔍 Rich SEO: full Open Graph + Twitter cards, JSON‑LD Person schema, sitemap & robots
+- 🔍 Rich SEO: Open Graph + Twitter cards, JSON-LD Person + WebSite schema, sitemap & robots
 - ⚡ Lighthouse 94 / 100 / 100 / 100 — Perf · A11y · Best Practices · SEO
 - 🧩 Zero‑CLS layout, prioritized hero LCP image
-- ♿ Accessible landmarks, semantic HTML, screen‑reader friendly alt text
+- ♿ Accessible landmarks, semantic HTML, screen-reader friendly alt text
 
 ## 📐 Project Structure
 
@@ -82,13 +101,13 @@ app/
 ├─ components/
 │  ├─ Hero.tsx           # Headline, badges, CTAs, profile portrait
 │  ├─ About.tsx          # Story + social/identity graph
-│  ├─ Projects.tsx       # Featured builds & research
+│  ├─ Projects.tsx       # Proof of Work — featured builds & research
 │  ├─ Skills.tsx         # Skill clusters
 │  ├─ Experience.tsx     # Roles & engagements
 │  ├─ Education.tsx      # 42 Abu Dhabi · Hassan II
-│  ├─ Achievements.tsx   # Hackathons, certs, awards
+│  ├─ Achievements.tsx   # Recognition + Certifications
 │  ├─ Navbar.tsx         # Sticky nav + theme toggle
-│  ├─ Footer.tsx         # Manifesto + socials
+│  ├─ Footer.tsx         # Manifesto + socials + Calendly
 │  └─ SectionBackground.tsx
 ├─ layout.tsx            # Root layout + metadata + JSON-LD
 ├─ page.tsx              # Section composition
@@ -100,7 +119,7 @@ public/Images/           # Optimized assets (hero, about, OG preview)
 
 ## 🛠️ Local Development
 
-Requirements: **Node.js ≥ 18.18** and **npm ≥ 9** (or pnpm/yarn/bun — adapt scripts).
+Requirements: **Node.js ≥ 18.18** and **npm ≥ 9** (or pnpm / yarn / bun — adapt scripts).
 
 ```bash
 git clone https://github.com/Hebx/DevFolio.git
@@ -120,7 +139,7 @@ npm run lint     # ESLint
 
 ## 🚢 Deployment
 
-Auto‑deployed to **[lordheb.com](https://lordheb.com)** via Vercel on every push to `Main`.
+Auto-deployed to **[lordheb.com](https://lordheb.com)** via Vercel on every push to `Main`.
 
 To deploy your own fork:
 
@@ -143,14 +162,14 @@ Core Web Vitals: **FCP 0.9 s · LCP 2.9 s · TBT 120 ms · CLS 0**
 ## 📞 Contact
 
 - **Email** — [Ihab.Hormi@hotmail.com](mailto:Ihab.Hormi@hotmail.com)
-- **Schedule** — [calendly.com/ihab‑heb/collab](https://calendly.com/ihab-heb/collab)
-- **Location** — Casablanca, Morocco · remote‑friendly worldwide
+- **Telegram** — [@lord_heb](https://t.me/lord_heb)
+- **Schedule** — [calendly.com/ihab-heb/collab](https://calendly.com/ihab-heb/collab)
+- **Location** — Casablanca, Morocco · remote-friendly worldwide
 
 ## 🔗 Identity Graph
 
-- [GitHub](https://github.com/Hebx) · [LinkedIn](https://www.linkedin.com/in/ihab-hormi-552b63219/) · [X / Twitter](https://x.com/lordheb) · [Telegram](https://t.me/lord_heb)
-- [Farcaster](https://warpcast.com/lordheb.eth) · [Lens](https://hey.xyz/u/@lordheb)
-- [Basename: lordheb.base.eth](https://www.base.org/name/lordheb) · [Talent Protocol](https://app.talentprotocol.com/profile/2912579)
+- [LinkedIn](https://www.linkedin.com/in/ihab-hormi-552b63219/) · [X / Twitter](https://x.com/lordheb) · [Telegram](https://t.me/lord_heb) · [GitHub](https://github.com/Hebx)
+- [Glorian Labs](https://glorianlabs.com) · [Basename: lordheb.base.eth](https://www.base.org/name/lordheb) · [Talent Protocol](https://app.talentprotocol.com/profile/2912579)
 
 ## 📄 License
 
